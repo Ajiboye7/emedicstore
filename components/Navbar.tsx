@@ -16,8 +16,8 @@ const Navbar = () => {
           </div>
         ))}
         <SearchInput />
-        <CustomButton title="Become a vendor"/>
-        <CustomButton title="Sign Up"/>
+        <CustomButton title="Become a vendor " buttonStyle="bg-black"/>
+        <CustomButton title="Sign Up" buttonStyle="bg-blue-200"/>
       </div>
     </nav>
   );

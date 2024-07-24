@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 
-.ButtonBg{
-  @apply bg-btnBg
+.bg-btn {
+  @apply bg-buttonBg;
 }
