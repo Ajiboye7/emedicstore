@@ -3,6 +3,7 @@ import Image from "next/image";
 import { NavLinks } from "@/constants";
 import Link from "next/link";
 import SearchInput from "./SearchInput";
+import CustomButton from "./CustomButton";
 
 const Navbar = () => {
   return (
@@ -15,6 +16,8 @@ const Navbar = () => {
           </div>
         ))}
         <SearchInput />
+        <CustomButton title="Become a vendor"/>
+        <CustomButton title="Sign Up"/>
       </div>
     </nav>
   );
