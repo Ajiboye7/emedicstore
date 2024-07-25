@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-primary-button {
+  @apply bg-primaryButtonBg;
+}
 
-.bg-btn {
-  @apply bg-buttonBg;
+.bg-secondary-button {
+  @apply bg-secondaryButtonBg;
 }

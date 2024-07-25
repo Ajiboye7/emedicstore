@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        buttonBg: '#FCFCFC'
+        primaryButtonBg: ' #0D63B2',
+        secondaryButtonBg: '#FCFCFC' 
       }
     },
   },

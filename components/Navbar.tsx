@@ -16,8 +16,9 @@ const Navbar = () => {
           </div>
         ))}
         <SearchInput />
-        <CustomButton title="Become a vendor " buttonStyle=""/>
-        <CustomButton title="Sign Up" buttonStyle="bg"/>
+        <CustomButton title="Become a vendor" buttonStyle="bg-secondary-button border-b-2 border-solid border-blue-500" iconStyle="" Icon="/SVG.svg" />
+        <CustomButton title="Sign Up" buttonStyle="bg-primary-button px-4 py-3" iconStyle="" Icon="/SVG2.svg"/>
+        
       </div>
     </nav>
   );
