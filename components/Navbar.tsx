@@ -7,32 +7,50 @@ import CustomButton from "./CustomButton";
 
 const Navbar = () => {
   return (
-    <nav>
-      <div className="nav-content flex items-center">
+    <nav className="bg-white shadow-md py-4">
+      <div className="container mx-auto flex items-center justify-between px-4">
         <Image src="/Logo.svg" alt="logo" width={150} height={150} />
-        {NavLinks.map((link) => (
-          <div className="nav-links" key={link.id}>
-            <Link href={link.url}>{link.title}</Link>
+
+        <div className="flex items-center space-x-6">
+          {NavLinks.map((link) => (
+            <Link href={link.url} key={link.id} className="text-gray-700 hover:text-blue-500">
+              {link.title}
+            </Link>
+          ))}
+        </div>
+
+        <div className="flex items-center space-x-4">
+          <SearchInput />
+
+          <CustomButton
+            title="Become a vendor"
+            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2"
+            iconStyle=""
+            Icon="/SVG.svg"
+          />
+          <CustomButton
+            title="Sign Up"
+            buttonStyle="bg-primary-button px-4 py-2"
+            iconStyle=""
+            Icon="/SVG2.svg"
+          />
+
+          <div className="relative">
+            <Image
+              src='/Cart.svg'
+              alt="cart"
+              width={40}
+              height={40}
+              className="inline-block"
+            />
+            <Image
+              src='/Cart Number.svg'
+              alt='cart number'
+              width={23}
+              height={23}
+              className="absolute left-6 top-0.5 transform -translate-y-1"
+            />
           </div>
-        ))}
-       
-        <SearchInput />
-        <CustomButton title="Become a vendor" buttonStyle="bg-secondary-button border-b-2 border-solid border-blue-500" iconStyle="" Icon="/SVG.svg" />
-        <CustomButton title="Sign Up" buttonStyle="bg-primary-button px-4 py-3" iconStyle="" Icon="/SVG2.svg"/>
-        <div className="cart relative">
-            <Image
-            src='/Cart.svg'
-            alt="cart"
-            width={70}
-            height={70}
-            />
-            <Image
-            src='/Cart Number.svg'
-            alt='cart number'
-            width={23}
-            height={23}
-            className="absolute left-12 top-0.5 transform -translate-y-1"
-            />
         </div>
       </div>
     </nav>
