@@ -16,26 +16,29 @@ const Header = () => {
           />
           <p className="text-bodyText">AFRICA’S TOP HEALTHCARE MARKETPLACE</p>
         </div>
-        <TextTitle text="Your Accessible & Budget-friendly  HealthCare Market." textStyle="text-6xl border border-solid border-green-300 max-w-[1200px]"/>
+        <TextTitle textStyle="text-6xl border border-solid border-green-300 max-w-[1200px]">
+          Your Accessible & Budget-<br/>friendly
+          HealthCare Market.
+        </TextTitle>
         <p className="max-w-[1000px] border border-solid border-red-300 text-bodyText">
           Experience healthcare that's effortlessly seamless, remarkably
           accessible, surprisingly affordable, and always conveniently tailored
           to you. No more long trips to the Pharmacy.
         </p>
         <div className="button flex items-center gap-5">
-        <CustomButton
-          title="Order Now"
-          buttonStyle="bg-primary-button px-4 py-2"
-          iconStyle=""
-          Icon="/SVG2.svg"
-        />
-        <CustomButton
-          title="Become a vendor"
-          buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2"
-          iconStyle=""
-          Icon="/SVG.svg"
-        />
-      </div>
+          <CustomButton
+            title="Order Now"
+            buttonStyle="bg-primary-button px-4 py-2"
+            iconStyle=""
+            Icon="/SVG2.svg"
+          />
+          <CustomButton
+            title="Become a vendor"
+            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2"
+            iconStyle=""
+            Icon="/SVG.svg"
+          />
+        </div>
       </div>
     </header>
   );

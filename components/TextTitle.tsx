@@ -1,10 +1,9 @@
 import { TextTitleProps } from '@/types';
 
-const TextTitle = ({text ,textStyle}:TextTitleProps) => {
+const TextTitle = ({ children, textStyle }: TextTitleProps) => {
   return (
     <h1 className={`text-4xl font-bold gradient-text ${textStyle}`}>
-     {text}
-     
+      {children}
     </h1>
   );
 }
