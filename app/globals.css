@@ -9,3 +9,6 @@
 .bg-secondary-button {
   @apply bg-secondaryButtonBg;
 }
+.text-body{
+  @apply text-bodyText;
+}

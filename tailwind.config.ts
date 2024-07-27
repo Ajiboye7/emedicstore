@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         primaryButtonBg: ' #0D63B2',
-        secondaryButtonBg: '#FCFCFC' 
+        secondaryButtonBg: '#FCFCFC',
+        bodyText: '#788190',
       }
     },
   },

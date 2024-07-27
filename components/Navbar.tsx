@@ -8,7 +8,7 @@ import CustomButton from "./CustomButton";
 const Navbar = () => {
   return (
     <nav className="bg-white shadow-md py-4 border border-solid border-blue-500">
-      <div className="container mx-auto flex items-center justify-between px-4 border max-w-[1700px] border-solid border-blue-300 ">
+      <div className="container max-w-[1700px] mx-auto flex items-center justify-between px-4 border border-solid border-blue-300 ">
         <Image src="/Logo.svg" alt="logo" width={150} height={150}/>
 
         <div className="flex items-center space-x-6 border-l-2 pl-20">
