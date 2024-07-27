@@ -4,3 +4,8 @@ export interface CustomButtonProps{
     iconStyle: string
     Icon:string
 }
+
+export interface gradientTextProps{
+    text: string
+    textStyle:string
+} 

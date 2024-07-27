@@ -12,6 +12,8 @@ const config: Config = {
         primaryButtonBg: ' #0D63B2',
         secondaryButtonBg: '#FCFCFC',
         bodyText: '#788190',
+        primaryGradientStart: '#0CDD6C',
+        primaryGradientEnd: '#0D63B2 ',
       }
     },
   },

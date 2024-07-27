@@ -12,3 +12,6 @@
 .text-body{
   @apply text-bodyText;
 }
+.gradient-text {
+  @apply bg-gradient-to-r from-primaryGradientStart to-primaryGradientEnd bg-clip-text text-transparent;
+}
