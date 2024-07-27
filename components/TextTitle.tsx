@@ -2,7 +2,7 @@ import { TextTitleProps } from '@/types';
 
 const TextTitle = ({ children, textStyle }: TextTitleProps) => {
   return (
-    <h1 className={`text-4xl font-bold gradient-text ${textStyle}`}>
+    <h1 className={`text-4xl  gradient-text ${textStyle}`}>
       {children}
     </h1>
   );
