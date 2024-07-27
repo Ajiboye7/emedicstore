@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import CustomButton from "./CustomButton";
+import TextTitle from "./TextTitle";
 
 const Header = () => {
   return (
@@ -15,9 +16,7 @@ const Header = () => {
           />
           <p className="text-bodyText">AFRICA’S TOP HEALTHCARE MARKETPLACE</p>
         </div>
-        <h2 className="text-7xl max-w-[1200px] border border-solid border-blue-300">
-          Your Accessible & Budget-friendly HealthCare Market.
-        </h2>
+        <TextTitle text="Your Accessible & Budget-friendly  HealthCare Market." textStyle="text-6xl border border-solid border-green-300 max-w-[1200px]"/>
         <p className="max-w-[1000px] border border-solid border-red-300 text-bodyText">
           Experience healthcare that's effortlessly seamless, remarkably
           accessible, surprisingly affordable, and always conveniently tailored
