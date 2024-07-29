@@ -6,7 +6,7 @@ export interface CustomButtonProps{
 }
 
 export interface TextTitleProps{
-    textStyle:string
+    textStyle?:string
     children?: React.ReactNode;
     
 } 
