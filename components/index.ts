@@ -4,6 +4,7 @@ import CustomButton from './CustomButton'
 import Header from './Header'
 import GradientText from './TextTitle'
 import Partners from './Partners'
+import Perks from './Perks'
 
 export{
     Navbar,
@@ -11,6 +12,7 @@ export{
     CustomButton,
     Header,
     GradientText,
-    Partners
+    Partners,
+    Perks
 }
 
