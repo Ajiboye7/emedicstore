@@ -16,7 +16,11 @@ const config: Config = {
         primaryGradientEnd: '#0D63B2 ',
         btnTextSecondary: '#FCFCFC',
         btnTextPrimary :' #0D63B2',
-      }
+      },
+      gradientColorStops: {
+        'header-start': '#0D63B2',
+        'header-end': '#0CDD6C',
+      },
     },
   },
   plugins: [],
