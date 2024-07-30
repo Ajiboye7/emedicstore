@@ -1,5 +1,6 @@
 import React from 'react';
 import { Perks as perksData } from '@/constants';
+import Image from 'next/image';
 
 const Perks = () => {
   return (
@@ -16,7 +17,19 @@ const Perks = () => {
         {/* Right Main Card */}
         <div className="w-full md:w-1/3">
           <div className="bg-white shadow-md p-6 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4" style={{ color: perksData[0].imgBgColor }}>{perksData[0].title}</h3>
+            <div className="relative flex items-center justify-center mb-4">
+              <div
+                className="absolute inset-0 rounded-full"
+                style={{
+                  backgroundColor: perksData[0].imgBgColor,
+                  opacity: 0.2, // Adjust opacity as needed
+                }}
+              ></div>
+              <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} />
+            </div>
+            <h3 className="text-2xl font-bold mb-4" style={{ color: perksData[0].imgBgColor }}>
+              {perksData[0].title}
+            </h3>
             <p className="text-bodyText mb-4">{perksData[0].body}</p>
           </div>
         </div>
@@ -26,13 +39,25 @@ const Perks = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {perksData.slice(1).map((perk) => (
           <div key={perk.id} className="bg-white shadow-md p-6 rounded-lg">
-            <h3 className="text-2xl font-bold mb-4" style={{ color: perk.imgBgColor }}>{perk.title}</h3>
+            <div className="relative flex items-center justify-center mb-4">
+              <div
+                className="absolute inset-0 rounded-full"
+                style={{
+                  backgroundColor: perk.imgBgColor,
+                  opacity: 0.2, // Adjust opacity as needed
+                }}
+              ></div>
+              <Image src={perk.img} alt={perk.alt} width={50} height={50} />
+            </div>
+            <h3 className="text-2xl font-bold mb-4" style={{ color: perk.imgBgColor }}>
+              {perk.title}
+            </h3>
             <p className="text-bodyText mb-4">{perk.body}</p>
           </div>
         ))}
       </div>
     </section>
   );
-}
+};
 
 export default Perks;
