@@ -17,19 +17,16 @@ const Perks = () => {
         {/* Right Main Card */}
         <div className="w-full md:w-1/3">
           <div className="bg-white shadow-md p-6 rounded-lg">
-            {/*<div className="relative flex items-center justify-center mb-4">
+            <div className="relative flex items-center justify-center mb-4">
               <div
-                className="absolute inset-0 rounded-full"
+                className="absolute inset-0 flex items-center justify-center rounded-full"
                 style={{
                   backgroundColor: perksData[0].imgBgColor,
                   opacity: 0.2, 
                 }}
               ></div>
-            </div>*/}
-            <div className='bg-black rounded-full w-16 h-16 opacity-20'>
-            <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} className='z-10' />
+               <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} />
             </div>
-             
             <h3 className="text-2xl font-bold mb-4" style={{ color: perksData[0].imgBgColor }}>
               {perksData[0].title}
             </h3>
@@ -44,7 +41,7 @@ const Perks = () => {
           <div key={perk.id} className="bg-white shadow-md p-6 rounded-lg">
             <div className="relative flex items-center justify-center mb-8">
               <div
-                className="absolute rounded-full flex items-center justify-center w-32 h-32"
+                className="absolute inset-0 flex items-center justify-center rounded-full w-32 h-32"
                 style={{
                   backgroundColor: perk.imgBgColor,
                   opacity: 0.2,
