@@ -22,7 +22,7 @@ const Perks = () => {
                 className="absolute inset-0 rounded-full"
                 style={{
                   backgroundColor: perksData[0].imgBgColor,
-                  opacity: 0.2, // Adjust opacity as needed
+                  opacity: 0.2, 
                 }}
               ></div>
               <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} />
@@ -41,10 +41,11 @@ const Perks = () => {
           <div key={perk.id} className="bg-white shadow-md p-6 rounded-lg">
             <div className="relative flex items-center justify-center mb-4">
               <div
-                className="absolute inset-0 rounded-full"
+                className="absolute rounded-full flex items-center justify-center w-16 h-16"
                 style={{
                   backgroundColor: perk.imgBgColor,
-                  opacity: 0.2, // Adjust opacity as needed
+                  opacity: 0.2,
+                  borderRadius: '50%',
                 }}
               ></div>
               <Image src={perk.img} alt={perk.alt} width={50} height={50} />
