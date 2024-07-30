@@ -21,7 +21,7 @@ export const NavLinks =[
     },
 ]
 
-export const Perks =[
+export const Perks = [
     {
         id: 1,
         title: 'Safe and Secure',
