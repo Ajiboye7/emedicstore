@@ -14,6 +14,8 @@ const config: Config = {
         bodyText: '#788190',
         primaryGradientStart: '#0CDD6C',
         primaryGradientEnd: '#0D63B2 ',
+        btnTextSecondary: '#FCFCFC',
+        btnTextPrimary :' #0D63B2',
       }
     },
   },

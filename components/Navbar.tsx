@@ -27,12 +27,14 @@ const Navbar = () => {
             buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2"
             iconStyle=""
             Icon="/SVG.svg"
+            titleStyle="text-btnTextPrimary"
           />
           <CustomButton
             title="Sign Up"
             buttonStyle="bg-primary-button px-4 py-2"
             iconStyle=""
             Icon="/SVG2.svg"
+             titleStyle="text-btnTextSecondary"
           />
           
           <div className="relative">

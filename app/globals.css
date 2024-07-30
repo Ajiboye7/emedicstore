@@ -12,6 +12,15 @@
 .text-body{
   @apply text-bodyText;
 }
+.btn-text-secondary{
+  @apply text-btnTextSecondary
+}
+.btn-text-primary{
+  @apply text-btnTextPrimary
+}
 .gradient-text {
   @apply bg-gradient-to-r from-primaryGradientStart to-primaryGradientEnd bg-clip-text text-transparent;
+}
+.header-background{
+  
 }

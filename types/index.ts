@@ -3,6 +3,7 @@ export interface CustomButtonProps{
     buttonStyle:string
     iconStyle: string
     Icon:string
+    titleStyle: string
 }
 
 export interface TextTitleProps{
