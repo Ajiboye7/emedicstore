@@ -17,7 +17,7 @@ const Perks = () => {
         {/* Right Main Card */}
         <div className="w-full md:w-1/3">
           <div className="bg-white shadow-md p-6 rounded-lg">
-            <div className="relative flex items-center justify-center mb-4">
+            {/*<div className="relative flex items-center justify-center mb-4">
               <div
                 className="absolute inset-0 rounded-full"
                 style={{
@@ -25,8 +25,11 @@ const Perks = () => {
                   opacity: 0.2, 
                 }}
               ></div>
-              <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} />
+            </div>*/}
+            <div className='bg-black rounded-full w-16 h-16 opacity-20'>
+            <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} className='z-10' />
             </div>
+             
             <h3 className="text-2xl font-bold mb-4" style={{ color: perksData[0].imgBgColor }}>
               {perksData[0].title}
             </h3>
@@ -39,13 +42,12 @@ const Perks = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {perksData.slice(1).map((perk) => (
           <div key={perk.id} className="bg-white shadow-md p-6 rounded-lg">
-            <div className="relative flex items-center justify-center mb-4">
+            <div className="relative flex items-center justify-center mb-8">
               <div
-                className="absolute rounded-full flex items-center justify-center w-16 h-16"
+                className="absolute rounded-full flex items-center justify-center w-32 h-32"
                 style={{
                   backgroundColor: perk.imgBgColor,
                   opacity: 0.2,
-                  borderRadius: '50%',
                 }}
               ></div>
               <Image src={perk.img} alt={perk.alt} width={50} height={50} />
