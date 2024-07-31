@@ -26,19 +26,7 @@ const Header = () => {
         to you. No more long trips to the Pharmacy.
       </p>
       <div className="button flex items-center gap-5 pt-6">
-        <CustomButton
-          title="Order Now"
-          buttonStyle="bg-primary-button px-5 py-4"
-          iconStyle=""
-          Icon="/SVG2.svg"
-          titleStyle="text-btnTextSecondary"
-        />
-        <CustomButton
-          title="Become a vendor"
-          buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-5 py-4"
-          iconStyle=""
-          Icon="/SVG.svg"
-          titleStyle="text-btnTextPrimary"
+t-btnTextPrimary"
         />
       </div>
     </div>
