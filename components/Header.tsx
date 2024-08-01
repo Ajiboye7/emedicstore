@@ -20,7 +20,7 @@ const Header = () => {
         Your <span className="font-bold">Accessible & Budget-</span><br />
         <span className="font-bold">friendly HealthCare</span> Market.
       </TextTitle>
-      <p className="text-2xl max-w-[1200px] text-bodyText mb-10">
+      <p className="text-2xl max-w-[1200px] text-bodyText mb-10 leading-relaxed">
         Experience healthcare that's effortlessly seamless, remarkably
         accessible, surprisingly affordable, and always conveniently tailored
         to you. No more long trips to the Pharmacy.

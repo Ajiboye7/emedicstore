@@ -24,6 +24,9 @@ const config: Config = {
       },
       fontSize:{
         'perkHead' :'1.2rem',
+        'perkBody' :'1.5rem',
+        'perkBodyLg' :'1.3rem',
+        'textTitle':'5.5rem',
       },
     },
   },
