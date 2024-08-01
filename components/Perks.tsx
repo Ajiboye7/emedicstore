@@ -20,8 +20,8 @@ const Perks = () => {
 
         {/* Right Main Card */}
         <div className="w-full md:w-1/3">
-          <div className="bg-white shadow-md p-6 rounded-lg">
-             <div className="relative flex items-center justify-center mb-4 w-20 h-20 rounded-full">
+          <div className="bg-white shadow-md py-14 px-10 rounded-lg">
+             <div className="relative flex items-center justify-center mb-14 w-20 h-20 rounded-full">
               <div
                 className=" absolute inset-[-15px] rounded-full"
                 style={{
@@ -32,12 +32,10 @@ const Perks = () => {
               <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} className="relative rounded-full"/>
             </div>
             <h3
-              className="text-2xl font-bold mb-4"
-              style={{ color: perksData[0].imgBgColor}}
-            >
+              className="text-perkHead font-bold mb-4 text-perkTitle">
               {perksData[0].title}
             </h3>
-            <p className="text-bodyText mb-4">{perksData[0].body}</p>
+            <p className="text-bodyText mb-4 max-w-[290px] leading-loose">{perksData[0].body}</p>
           </div>
         </div>
       </div>
@@ -45,8 +43,8 @@ const Perks = () => {
       {/* Other Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {perksData.slice(1).map((perk) => (
-          <div className="bg-white shadow-md p-6 rounded-lg">
-          <div className="relative flex items-center justify-center mb-4 w-20 h-20 rounded-full">
+          <div key={perk.id}className="bg-white shadow-md py-14 px-10 rounded-lg w-full">
+          <div className="relative flex items-center justify-center mb-14 w-20 h-20 rounded-full">
            <div
              className=" absolute inset-[-15px] rounded-full"
              style={{
@@ -57,12 +55,10 @@ const Perks = () => {
            <Image src={perk.img} alt={perk.alt} width={50} height={50} className="relative rounded-full"/>
          </div>
          <h3
-           className="text-2xl font-bold mb-4"
-           style={{ color: perk.imgBgColor}}
-         >
+           className="text-1xl font-bold mb-4 text-perkTitle">
            {perk.title}
          </h3>
-         <p className="text-bodyText mb-4">{perk.body}</p>
+         <p className="text-bodyText mb-4 max-w-[290px] leading-loose">{perk.body}</p>
        </div>
         ))}
       </div>

@@ -12,6 +12,9 @@
 .text-body{
   @apply text-bodyText;
 }
+.perk-title{
+  @apply text-perkTitle
+}
 .btn-text-secondary{
   @apply text-btnTextSecondary
 }
