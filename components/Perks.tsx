@@ -21,28 +21,19 @@ const Perks = () => {
         {/* Right Main Card */}
         <div className="w-full md:w-1/3">
           <div className="bg-white shadow-md p-6 rounded-lg">
-            {/* <div className="relative flex items-start justify-start mb-4">
+             <div className="relative flex items-center justify-center mb-4 w-20 h-20 rounded-full">
               <div
-                className="w-20 h-20 flex items-center justify-center rounded-full"
+                className=" absolute inset-[-15px] rounded-full"
                 style={{
                   backgroundColor: perksData[0].imgBgColor,
                   opacity: 0.2,
                 }}
-              >
-                <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} />
-              </div>
-            </div>*/}
-            <div className="flex justify-center items-center bg-blue-300 rounded-full p-4 w-20 h-20">
-              <Image
-                src={perksData[0].img}
-                alt={perksData[0].alt}
-                width={50}
-                height={50}
-              />
+              ></div>
+              <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} className="relative rounded-full"/>
             </div>
             <h3
               className="text-2xl font-bold mb-4"
-              style={{ color: perksData[0].imgBgColor }}
+              style={{ color: perksData[0].imgBgColor}}
             >
               {perksData[0].title}
             </h3>
@@ -54,42 +45,25 @@ const Perks = () => {
       {/* Other Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {perksData.slice(1).map((perk) => (
-          <div key={perk.id} className="bg-white shadow-md p-6 rounded-lg">
-            {/*<div className="relative flex items-start justify-start mb-8">
-              <div
-                className="w-20 h-20 flex items-center justify-center rounded-full"
-                style={{
-                  backgroundColor: perk.imgBgColor,
-                  opacity: 0.2,
-                }}
-              >
-                <Image src={perk.img} alt={perk.alt} width={50} height={50} />
-              </div>
-            </div>*/}
-            <div className="relative w-20 h-20 flex items-center justify-center rounded-full">
-              <div
-                className="absolute inset-0 rounded-full"
-                style={{
-                  backgroundColor: perk.imgBgColor,
-                  opacity: 0.2,
-                }}
-              ></div>
-              <Image
-                src={perk.img}
-                alt={perk.alt}
-                width={50}
-                height={50}
-                className="rounded-full relative"
-              />
-            </div>
-            <h3
-              className="text-2xl font-bold mb-4"
-              style={{ color: perk.imgBgColor }}
-            >
-              {perk.title}
-            </h3>
-            <p className="text-bodyText mb-4">{perk.body}</p>
-          </div>
+          <div className="bg-white shadow-md p-6 rounded-lg">
+          <div className="relative flex items-center justify-center mb-4 w-20 h-20 rounded-full">
+           <div
+             className=" absolute inset-[-15px] rounded-full"
+             style={{
+               backgroundColor: perk.imgBgColor,
+               opacity: 0.2,
+             }}
+           ></div>
+           <Image src={perk.img} alt={perk.alt} width={50} height={50} className="relative rounded-full"/>
+         </div>
+         <h3
+           className="text-2xl font-bold mb-4"
+           style={{ color: perk.imgBgColor}}
+         >
+           {perk.title}
+         </h3>
+         <p className="text-bodyText mb-4">{perk.body}</p>
+       </div>
         ))}
       </div>
     </section>
