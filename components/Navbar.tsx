@@ -205,7 +205,23 @@ const Navbar = () => {
         <div className="flex items-center justify-between w-full md:w-auto">
           <Image src="/Logo.svg" alt="logo" width={150} height={150} />
 
-          <div className="md:hidden">
+          <div className="flex items-center md:hidden">
+            <div className="relative mr-4">
+              <Image
+                src='/Cart.svg'
+                alt="cart"
+                width={40}
+                height={40}
+                className="inline-block"
+              />
+              <Image
+                src='/Cart Number.svg'
+                alt='cart number'
+                width={23}
+                height={23}
+                className="absolute left-6 top-0.5 transform -translate-y-1"
+              />
+            </div>
             <button
               type="button"
               className="text-gray-700 hover:text-blue-500 focus:outline-none focus:text-blue-500"
@@ -216,7 +232,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className={`md:flex items-center space-x-6 pl-20 border-l-2 border-gray-200 ${menuOpen ? 'flex flex-col w-full mt-4 md:mt-0' : 'hidden'}`}>
+        <div className="hidden md:flex items-center space-x-6 pl-20 border-l-2 border-gray-200">
           {NavLinks.map((link) => (
             <Link href={link.url} key={link.id} className="text-gray-700 hover:text-blue-500">
               {link.title}
@@ -224,25 +240,25 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className={`md:flex items-center space-x-4 ${menuOpen ? 'flex flex-col w-full mt-4 md:mt-0' : 'hidden'}`}>
+        <div className="hidden md:flex items-center space-x-4">
           <SearchInput />
 
           <CustomButton
             title="Become a vendor"
-            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2 mt-4 md:mt-0"
+            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2"
             iconStyle=""
             Icon="/SVG.svg"
             titleStyle="text-btnTextPrimary"
           />
           <CustomButton
             title="Sign Up"
-            buttonStyle="bg-primary-button px-4 py-2 mt-4 md:mt-0"
+            buttonStyle="bg-primary-button px-4 py-2"
             iconStyle=""
             Icon="/SVG2.svg"
             titleStyle="text-btnTextSecondary"
           />
           
-          <div className="relative mt-4 md:mt-0">
+          <div className="relative">
             <Image
               src='/Cart.svg'
               alt="cart"
@@ -273,7 +289,7 @@ const Navbar = () => {
 
           <CustomButton
             title="Become a vendor"
-            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2 mt-4"
+            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2"
             iconStyle=""
             Icon="/SVG.svg"
             titleStyle="text-btnTextPrimary"
@@ -285,23 +301,6 @@ const Navbar = () => {
             Icon="/SVG2.svg"
             titleStyle="text-btnTextSecondary"
           />
-
-          <div className="relative mt-4">
-            <Image
-              src='/Cart.svg'
-              alt="cart"
-              width={40}
-              height={40}
-              className="inline-block"
-            />
-            <Image
-              src='/Cart Number.svg'
-              alt='cart number'
-              width={23}
-              height={23}
-              className="absolute left-6 top-0.5 transform -translate-y-1"
-            />
-          </div>
         </div>
       )}
     </nav>
