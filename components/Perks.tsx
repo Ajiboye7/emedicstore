@@ -32,8 +32,13 @@ const Perks = () => {
                 <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} />
               </div>
             </div>*/}
-            <div className="flex justify-center items-center bg-blue-300 rounded-full p-4 w-20 h-20" >
-            <Image src={perksData[0].img} alt={perksData[0].alt} width={50} height={50} />
+            <div className="flex justify-center items-center bg-blue-300 rounded-full p-4 w-20 h-20">
+              <Image
+                src={perksData[0].img}
+                alt={perksData[0].alt}
+                width={50}
+                height={50}
+              />
             </div>
             <h3
               className="text-2xl font-bold mb-4"
@@ -61,11 +66,21 @@ const Perks = () => {
                 <Image src={perk.img} alt={perk.alt} width={50} height={50} />
               </div>
             </div>*/}
-             <div className="flex justify-center items-center rounded-full p-4 w-20 h-20" style={{
+            <div className="relative w-20 h-20 flex items-center justify-center rounded-full">
+              <div
+                className="absolute inset-0 rounded-full"
+                style={{
                   backgroundColor: perk.imgBgColor,
                   opacity: 0.2,
-                }}>
-             <Image src={perk.img} alt={perk.alt} width={100} height={100} className="rounded-full"/>
+                }}
+              ></div>
+              <Image
+                src={perk.img}
+                alt={perk.alt}
+                width={50}
+                height={50}
+                className="rounded-full relative"
+              />
             </div>
             <h3
               className="text-2xl font-bold mb-4"
