@@ -43,7 +43,7 @@ const Perks = () => {
           <div
             className="bg-white shadow-md pt-20 pb-20 px-10 rounded-3xl"
             style={{
-              border: `2px solid ${perksData[0].imgBgColor}`, // or any desired width
+              border: `2px solid ${perksData[0].imgBgColor}`, 
             }}
           >
             <div className="relative flex items-center justify-center mb-14 w-20 h-20 rounded-full">

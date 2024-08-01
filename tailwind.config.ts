@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { Categories } from "./components";
 
 const config: Config = {
   content: [
@@ -17,6 +18,9 @@ const config: Config = {
         btnTextSecondary: '#FCFCFC',
         btnTextPrimary :' #0D63B2',
         perkTitle: '#083C6B',
+        CategoryBorder1: '#083C6B',
+        CategoryBorder2: '#0CDD6C',
+
       },
       gradientColorStops: {
         'header-start': '#0D63B2',

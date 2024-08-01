@@ -1,10 +1,15 @@
 import React from 'react';
+import { HealthCategories} from '@/constants';
 
 const Categories = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      {HealthCategories.map(cat =>(
+        <div key= {cat.id}>
+            
+        </div>
+      ))}
+    </section>
   );
 }
 
