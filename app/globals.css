@@ -27,3 +27,6 @@
 .gradient-header {
   background: linear-gradient(90deg, rgba(13, 99, 178, 0.04) 22%, rgba(12, 221, 108, 0.07) 100%);
 }
+.catTextTitle{
+  @apply text-categoryTextTitle
+}

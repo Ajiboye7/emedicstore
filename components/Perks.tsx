@@ -7,9 +7,9 @@ import CustomButton from "./CustomButton";
 const Perks = () => {
   return (
     <section className="container px-4 py-8 max-w-[1900px] mx-auto">
-      <div className="flex flex-col md:flex-row items-start gap-8 mb-8 max-w-[1900px] mx-auto border border-solid border-blue-800">
+      <div className="flex flex-col md:flex-row items-start gap-8 mb-8 max-w-[1900px] mx-auto">
         {/* Left Write-up */}
-        <div className="w-full lg:w-2/3 border border-solid border-green-300">
+        <div className="w-full lg:w-2/3">
           <p className="text-bodyText">The eMEDICstore LIFESTYLE</p>
           <TextTitle textStyle="md:text-6xl xl:text-7xl 2xl:text-textTitle font-normal mt-10 ">
             Seamless. Trusted. Affordable. Accessible.

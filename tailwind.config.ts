@@ -20,6 +20,7 @@ const config: Config = {
         perkTitle: '#083C6B',
         CategoryBorder1: '#083C6B',
         CategoryBorder2: '#0CDD6C',
+        categoryTextTitle: '#0D63B2'
 
       },
       gradientColorStops: {

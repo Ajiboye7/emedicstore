@@ -200,7 +200,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md py-4 border-b border-solid border-blue-500 overflow-hidden">
+    <nav className="bg-white shadow-md py-4 overflow-hidden">
       <div className="container mx-auto flex flex-wrap items-center justify-between px-4 max-w-[1700px]">
         <div className="flex items-center justify-between w-full md:w-auto">
           <Image src="/Logo.svg" alt="logo" width={150} height={150} />

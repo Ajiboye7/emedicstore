@@ -70,7 +70,7 @@ export const HealthCategories =[
         borderColor: '#083C6B',
     },
     {
-        id: 1,
+        id: 2,
         title: 'Women’s Health',
         img: '/2.svg',
         alt:'women',
@@ -78,7 +78,7 @@ export const HealthCategories =[
     },
     
     {
-        id: 1,
+        id: 3,
         title: 'Kid’s Health',
         img: '/3.svg',
         alt:'kid',
@@ -86,7 +86,7 @@ export const HealthCategories =[
     },
     
     {
-        id: 1,
+        id: 4,
         title: 'Skin & Beauty',
         img: '/4.svg',
         alt:'skin & beauty',
@@ -94,17 +94,17 @@ export const HealthCategories =[
     },
     
     {
-        id: 1,
+        id: 5,
         title: 'Sexual Wellness',
-        img: '/public/5.png',
+        img: '/5.png',
         alt:'sexual wellness',
         borderColor: '#083C6B',
     },
     
     {
-        id: 1,
+        id: 6,
         title: 'Fitness Supplements',
-        img: '/public/6.png',
+        img: '/6.png',
         alt:'fitness supplements',
         borderColor: '#0CDD6C',
     }, 
