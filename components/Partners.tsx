@@ -4,7 +4,7 @@ import Image from "next/image";
 const Partners = () => {
   return (
     <section>
-      <div className="max-w-[1200px] mx-auto border border-solid border-blue-500">
+      <div className="max-w-[1400px] mx-auto border border-solid border-blue-500">
         <p className="text-center text-bodyText">
           TRUSTED & ENDORSED BY INDUSTRY PROFESSIONALS
         </p>

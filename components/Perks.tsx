@@ -6,15 +6,15 @@ import CustomButton from "./CustomButton";
 
 const Perks = () => {
   return (
-    <section className="container px-4 py-8 max-w-[1700px] mx-auto ">
-      <div className="flex flex-col md:flex-row items-start gap-8 mb-8 max-w-[1700px] mx-auto border border-solid border-blue-800">
+    <section className="container px-4 py-8 max-w-[1900px] mx-auto">
+      <div className="flex flex-col md:flex-row items-start gap-8 mb-8 max-w-[1900px] mx-auto border border-solid border-blue-800">
         {/* Left Write-up */}
         <div className="w-full lg:w-2/3 border border-solid border-green-300">
           <p className="text-bodyText">The eMEDICstore LIFESTYLE</p>
-          <TextTitle textStyle="md:text-5xl xl:text-7xl 2xl:text-textTitle font-normal mt-10 ">
+          <TextTitle textStyle="md:text-6xl xl:text-7xl 2xl:text-textTitle font-normal mt-10 ">
             Seamless. Trusted. Affordable. Accessible.
           </TextTitle>
-          <p className="text-bodyText mb-4 mt-10 lg:text-perkBodyLg 2xl:text-perkBody leading-relaxed">
+          <p className="text-bodyText mb-4 mt-10 md:text-perkBodyMd lg:text-perkBodyLg 2xl:text-perkBody leading-relaxed">
             With eMedics, the advantages are endless, offering a comprehensive
             healthcare experience that seamlessly integrates trust,
             affordability, and accessibility into every aspect of your
@@ -39,7 +39,7 @@ const Perks = () => {
         </div>
 
         {/* Right Main Card */}
-        <div className="w-full md:w-1/3 md:hidden lg:block ">
+        <div className="w-full md:w-1/3 hidden lg:block ">
           <div
             className="bg-white shadow-md pt-20 pb-20 px-10 rounded-3xl"
             style={{
@@ -77,7 +77,7 @@ const Perks = () => {
         <div
           className="bg-white shadow-md pt-20 pb-20 px-10 rounded-3xl lg:hidden"
           style={{
-            border: `2px solid ${perksData[0].imgBgColor}`, // or any desired width
+            border: `2px solid ${perksData[0].imgBgColor}`,
           }}
         >
           <div className="relative flex items-center justify-center mb-14 w-20 h-20 rounded-full">

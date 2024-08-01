@@ -5,7 +5,7 @@ import { CustomButtonProps } from '@/types';
 const CustomButton = ({ title, buttonStyle,iconStyle,Icon,titleStyle}: CustomButtonProps) => {
   return (
     <div>
-      <button type='submit' className={`flex items-center gap-2 rounded-full ${buttonStyle}`}>
+      <button type='submit' className={`flex items-center gap-2 rounded-full whitespace-nowrap ${buttonStyle}`}>
         <span className={`${titleStyle}`}>{title}</span>
         <Image 
           alt='buttonIcon'
