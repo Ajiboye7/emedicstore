@@ -20,7 +20,9 @@ const Perks = () => {
 
         {/* Right Main Card */}
         <div className="w-full md:w-1/3">
-          <div className="bg-white shadow-md py-14 px-10 rounded-lg">
+          <div className="bg-white shadow-md py-14 px-10 rounded-3xl" style={{
+            border: `2px solid ${perksData[0].imgBgColor}`, // or any desired width
+          }}>
              <div className="relative flex items-center justify-center mb-14 w-20 h-20 rounded-full">
               <div
                 className=" absolute inset-[-15px] rounded-full"
@@ -35,15 +37,18 @@ const Perks = () => {
               className="text-perkHead font-bold mb-4 text-perkTitle">
               {perksData[0].title}
             </h3>
-            <p className="text-bodyText mb-4 max-w-[290px] leading-loose">{perksData[0].body}</p>
+            <p className="text-bodyText mb-4 max-w-[300px] leading-loose">{perksData[0].body}</p>
           </div>
         </div>
       </div>
 
       {/* Other Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
         {perksData.slice(1).map((perk) => (
-          <div key={perk.id}className="bg-white shadow-md py-14 px-10 rounded-lg w-full">
+          <div key={perk.id}  className="bg-white shadow-md py-14 px-10 rounded-3xl w-full"
+          style={{
+            border: `1px solid ${perk.imgBgColor}`,
+          }}>
           <div className="relative flex items-center justify-center mb-14 w-20 h-20 rounded-full">
            <div
              className=" absolute inset-[-15px] rounded-full"
@@ -55,7 +60,7 @@ const Perks = () => {
            <Image src={perk.img} alt={perk.alt} width={50} height={50} className="relative rounded-full"/>
          </div>
          <h3
-           className="text-1xl font-bold mb-4 text-perkTitle">
+           className="text-perkHead font-bold mb-4 text-perkTitle">
            {perk.title}
          </h3>
          <p className="text-bodyText mb-4 max-w-[290px] leading-loose">{perk.body}</p>

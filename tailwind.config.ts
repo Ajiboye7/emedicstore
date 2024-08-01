@@ -23,7 +23,7 @@ const config: Config = {
         'header-end': '#0CDD6C',
       },
       fontSize:{
-        'perkHead' :'1.4rem',
+        'perkHead' :'1.2rem',
       },
     },
   },
