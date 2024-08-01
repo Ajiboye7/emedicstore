@@ -232,7 +232,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex items-center space-x-6 pl-20 border-l-2 border-gray-200">
+        <div className="hidden md:flex items-center space-x-4 pl-20 border-l-2 border-gray-200">
           {NavLinks.map((link) => (
             <Link href={link.url} key={link.id} className="text-gray-700 hover:text-blue-500">
               {link.title}
@@ -308,6 +308,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
