@@ -60,3 +60,40 @@ export const Perks = [
     },
 
 ]
+
+export const HealthCategories =[
+    {
+        id: 1,
+        title: 'Men’s Health',
+        img: '/1.svg'
+    },
+    {
+        id: 1,
+        title: 'Women’s Health',
+        img: '/2.svg'
+    },
+    
+    {
+        id: 1,
+        title: 'Kid’s Health',
+        img: '/3.svg'
+    },
+    
+    {
+        id: 1,
+        title: 'Skin & Beauty',
+        img: '/4.svg'
+    },
+    
+    {
+        id: 1,
+        title: 'Sexual Wellness',
+        img: '/public/5.png'
+    },
+    
+    {
+        id: 1,
+        title: 'Fitness Supplements',
+        img: '/public/6.png'
+    }, 
+]

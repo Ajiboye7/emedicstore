@@ -5,6 +5,7 @@ import Header from './Header'
 import GradientText from './TextTitle'
 import Partners from './Partners'
 import Perks from './Perks'
+import Categories from './Categories'
 
 export{
     Navbar,
@@ -13,6 +14,7 @@ export{
     Header,
     GradientText,
     Partners,
-    Perks
+    Perks,
+    Categories,
 }
 
