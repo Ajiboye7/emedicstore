@@ -132,3 +132,32 @@ export const HealthCategories =[
         body: 'Make Enquiries'
     },
  ]
+
+ export const Testimonial =[
+    {
+        id:1,
+        body: 'Always a pleasure ordering from eMedicStore. Your customer service is top notch. I think other online beauty stores should learn from you on how to handle their customers so well! So do not change a thing! Thank You.',
+        name: 'Adeleke Maryann',
+        location :'Lagos, Nigeria.',
+        img: 'Ellipse_31_oona4x 1.svg',
+        alt:'first person'
+    },
+
+    {
+        id:2,
+        body: 'I cannot believe the amazing service you guys provide. The staffs are all so courteous and willing to go out of their way every time to give an excellent service. They truly go the extra mile and put the customers first.',
+        name: 'Rashid',
+        location :'London, United Kingdom.',
+        img: '/Ellipse_42_byjhfd 1.svg',
+        alt:'second person'
+    },
+
+    {
+        id:3,
+        body: 'I am immensely grateful for the exceptional customer service provided by eMedicStore. The speed of delivery surpassed my expectations, and the attentive support made the entire experience seamless.',
+        name: 'Preye',
+        location :'Rivers State, Nigeria.',
+        img: '/Ellipse_34_sj528k 1.svg',
+        alt:'third person'
+    },
+ ]

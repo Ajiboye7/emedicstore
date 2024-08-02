@@ -8,6 +8,7 @@ import Perks from './Perks'
 import Categories from './Categories'
 import Consultant from './Consultant'
 import Vendor from './Vendor'
+import Testimonials from './Testimonials'
 
 export{
     Navbar,
@@ -20,5 +21,6 @@ export{
     Categories,
     Consultant,
     Vendor,
+    Testimonials,
 }
 
