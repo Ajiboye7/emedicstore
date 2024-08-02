@@ -45,24 +45,24 @@ const Testimonials = () => {
       <div className="container max-w-[1900px] mx-auto text-center px-4 md:px-12">
         <p className="text-bodyText mb-4">DON’T JUST TAKE OUR WORD FOR IT</p>
         <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-6xl mb-10">
-          Here’s What Our <span>Customers</span> Say
+          Here’s What Our <span className='font-bold'>Customers</span> Say
         </TextTitle>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {Testimonial.map((test, index) => (
-            <div
-              key={test.id}
-              className={`p-6 shadow-md rounded-3xl bg-white transform transition-transform duration-300`}
-              style={{
-                transform: `rotate(${index % 2 === 0 ? '-4deg' : '4deg'})`,
-              }}
-            >
-              <p className="text-bodyText text-left mb-4">{test.body}</p>
+           <div
+           key={test.id}
+           className={`p-6 px-14 shadow-md rounded-3xl bg-white transform transition-transform duration-300 gradient-border`}
+           style={{
+             transform: `rotate(${index % 2 === 0 ? '-2deg' : '2deg'})`,
+           }}
+         >
+              <p className="text-bodyText text-left mb-4 text-conBody leading-loose">{test.body}</p>
               <div className="flex items-center justify-between gap-4">
               <div className='flex flex-col gap-4'>
                   <p className="text-bodyText font-bold text-left">{test.name}</p>
                   <p className="text-bodyText text-left">{test.location}</p>
                 </div>
-                <Image src={test.img} alt={test.alt} width={50} height={50} className="rounded-full" />
+                <Image src={test.img} alt={test.alt} width={60} height={60} className="rounded-full" />
               </div>
             </div>
           ))}

@@ -20,7 +20,10 @@ const config: Config = {
         perkTitle: '#083C6B',
         CategoryBorder1: '#083C6B',
         CategoryBorder2: '#0CDD6C',
-        categoryTextTitle: '#0D63B2'
+        categoryTextTitle: '#0D63B2',
+        borderGradientStart: '#0CDD6C',
+        borderGradientEnd: '#0D63B2',
+
 
       },
       gradientColorStops: {
@@ -35,7 +38,7 @@ const config: Config = {
         'textTitle':'5.5rem',
         'headerBody': '1.4rem',
         'conTitle' : '5.2rem',
-        'conBody' : '1.3rem'
+        'conBody' : '1.3rem',
 
       },
     },
