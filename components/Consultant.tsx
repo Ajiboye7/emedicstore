@@ -9,7 +9,7 @@ const Consultant = () => {
     <section className='max-w-[1900px] mx-auto items-center justify-center px-4 md:px-12 pt-12 pb-20'>
       <p className='text-center text-bodyText'>INSTANT HEALTH INSIGHTS</p>
       <div className='content w-full flex flex-col items-center md:flex-row gap-12 mt-10'>
-        <div className='w-full md:w-1/2 xl:w-1/3 flex justify-center'>
+        <div className='w-full md:w-1/2 xl:w-1/3 mx-auto flex justify-center'>
           <Image src='/Consultant PS ED 1.svg' alt='consultantImage' width={600} height={600} />
         </div>
         <div className='w-full md:w-1/2 xl:w-2/3'>
