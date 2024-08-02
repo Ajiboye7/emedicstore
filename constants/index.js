@@ -109,3 +109,26 @@ export const HealthCategories =[
         borderColor: '#0CDD6C',
     }, 
 ]
+
+ export const Consult =[
+    {
+        id: 1,
+        img:'/tick-circle.svg',
+        alt :'tick',
+        body: 'Talk to a Professional'
+    },
+
+    {
+        id: 2,
+        img:'/tick-circle.svg',
+        alt :'tick',
+        body: 'Make Special & Personalized Requests'
+    },
+
+    {
+        id: 3,
+        img:'/tick-circle.svg',
+        alt :'tick',
+        body: 'Make Enquiries'
+    },
+ ]

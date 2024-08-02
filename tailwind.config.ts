@@ -34,6 +34,8 @@ const config: Config = {
         'perkBodyMd' :'1.2rem',
         'textTitle':'5.5rem',
         'headerBody': '1.4rem',
+        'conTitle' : '5.2rem'
+
       },
     },
   },

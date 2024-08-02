@@ -31,7 +31,13 @@ const Categories = () => {
           </div>
         ))}
         </div>
-        
+        <CustomButton
+            title="Browse all Categories"
+            buttonStyle="bg-primary-button px-5 py-4 mx-auto mt-14"
+            iconStyle=""
+            Icon="/SVG2.svg"
+            titleStyle="text-btnTextSecondary"
+          />
       </div>
     </section>
   );
