@@ -39,8 +39,10 @@ const config: Config = {
         'headerBody': '1.4rem',
         'conTitle' : '5.2rem',
         'conBody' : '1.3rem',
-
       },
+      borderRadius:{
+        'borderRadius' : '2.5rem',
+      }
     },
   },
   plugins: [],

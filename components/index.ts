@@ -11,6 +11,7 @@ import Vendor from './Vendor'
 import Testimonials from './Testimonials'
 import QandA from './QandA'
 import QA from './QA'
+import Explore from './Explore'
 
 export{
     Navbar,
@@ -26,5 +27,6 @@ export{
     Testimonials,
     QandA,
     QA,
+    Explore,
 }
 

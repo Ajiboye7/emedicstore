@@ -14,11 +14,11 @@ const QA = () => {
   const selectedQuestion =  QuestionAnswer.find(qa => qa.id === selectedQuestionId)
   const selectedAnswer = selectedQuestion ? selectedQuestion.answer : 'Click question to display answer.'
   return (
-    <section>
+    <section className='mt-20'>
       <div className='max-w-[1800px] mx-auto'>
-        <p>Things YOU MAY WANT TO KNOW</p>
-        <TextTitle>Got Questions?</TextTitle>
-        <div className='flex gap-20 mx-auto max-h-[700px]'>
+        <p className='text-bodyText'>THINGS YOU MAY WANT TO KNOW</p>
+        <TextTitle textStyle='text-8xl my-14'>Got Questions?</TextTitle>
+        <div className='flex gap-20 mx-auto max-h-[750px]'>
         <div className='question flex flex-col gap-8 flex-1 max-w-[800px] overflow-y-scroll max-h-full hide-scrollbar'>
           {QuestionAnswer.map(qa=>(
             <button
@@ -30,7 +30,7 @@ const QA = () => {
             </button>
           ))}
         </div>
-        <div className='answer text-white font-semibold border rounded-3xl flex flex-1 items-center justify-center max-w-[800px] p-10 text-3xl text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart'>
+        <div className='answer text-white font-semibold border rounded-borderRadius flex flex-1 items-center justify-center max-w-[800px] p-14 text-4xl text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart'>
           <p>{selectedAnswer}</p>
         </div>
         </div>

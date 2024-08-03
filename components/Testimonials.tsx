@@ -78,7 +78,7 @@ const Testimonials = () => {
               }}
             >
               <div className="p-6 px-8 md:px-10 lg:px-12 lg:py-14 shadow-md rounded-3xl h-full bg-white transform transition-transform duration-300">
-                <p className="text-bodyText text-left mb-4 text-conBody leading-loose text-sm md:text-base lg:text-lg">
+                <p className="text-bodyText text-left mb-14 text-conBody leading-loose text-sm md:text-base lg:text-lg">
                   {test.body}
                 </p>
                 <div className="w-full h-[2px] mb-4 bg-gradient-to-r from-primaryGradientStart to-primaryGradientEnd"></div>

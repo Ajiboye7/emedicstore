@@ -249,3 +249,10 @@ export const HealthCategories =[
     },
  ]
 
+ export const Explore =[
+    {
+        id: 1,
+        img: ''
+    }
+ ]
+
