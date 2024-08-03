@@ -249,10 +249,26 @@ export const HealthCategories =[
     },
  ]
 
- export const Explore =[
+ export const Blog =[
     {
         id: 1,
-        img: ''
+        img: '/Blog 1 Image.svg',
+        alt: 'blog1',
+        body: 'Sexual Dysfunction in Females: Definition, Types, Causes, Symptoms, and Treatments.'
+    },
+
+    {
+        id: 2,
+        img: '/Blog 2 Image.svg',
+        alt: 'blog2',
+        body: 'Best Natural Ways to Boost Immune System.'
+    },
+
+    {
+        id: 3,
+        img: '/Blog 3 Image.svg',
+        alt: 'blog3',
+        body: '7 Benefits of Sexual Wellness Supplements for Male and Female.'
     }
  ]
 
