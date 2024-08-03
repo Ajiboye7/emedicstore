@@ -10,6 +10,7 @@ import Consultant from './Consultant'
 import Vendor from './Vendor'
 import Testimonials from './Testimonials'
 import QandA from './QandA'
+import QA from './QA'
 
 export{
     Navbar,
@@ -24,5 +25,6 @@ export{
     Vendor,
     Testimonials,
     QandA,
+    QA,
 }
 

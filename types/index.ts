@@ -10,3 +10,4 @@ export interface TextTitleProps{
     textStyle?:string
     children?: React.ReactNode;
 }
+
