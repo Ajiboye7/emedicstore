@@ -29,7 +29,6 @@
 }
 .catTextTitle{
   @apply text-categoryTextTitle
-  
 }
 /*.gradient-border {
   position: relative;
