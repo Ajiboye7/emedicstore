@@ -30,6 +30,7 @@
 .catTextTitle{
   @apply text-categoryTextTitle
 }
+
 /* Hide scrollbar for WebKit browsers */
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

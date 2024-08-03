@@ -9,7 +9,6 @@ export default function Home() {
       <Consultant/>
       <Vendor/>
       <Testimonials/>
-      <QandA/>
       <QA/>
     </main>
   );

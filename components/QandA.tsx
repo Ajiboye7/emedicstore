@@ -39,7 +39,7 @@ const QandA = () => {
         {questionsAnswers.map(qa => (
           <button
             key={qa.id}
-            className={`p-4 border rounded-lg text-left ${qa.id === selectedQuestionId ? 'bg-primaryButtonBg text-white' : ''}`}
+            className={`p-4 border rounded-lg text-left ${qa.id === selectedQuestionId ? 'bg-blue-100' : ''}`}
             onClick={() => handleQuestionClick(qa.id)}
           >
             {qa.question}
