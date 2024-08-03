@@ -9,6 +9,7 @@ import Categories from './Categories'
 import Consultant from './Consultant'
 import Vendor from './Vendor'
 import Testimonials from './Testimonials'
+import QandA from './QandA'
 
 export{
     Navbar,
@@ -22,5 +23,6 @@ export{
     Consultant,
     Vendor,
     Testimonials,
+    QandA,
 }
 

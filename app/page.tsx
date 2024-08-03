@@ -1,4 +1,4 @@
-import { Header, Partners, Perks, Categories, Consultant, Vendor, Testimonials } from "@/components";
+import { Header, Partners, Perks, Categories, Consultant, Vendor, Testimonials, QandA } from "@/components";
 export default function Home() {
   return (
     <main>
@@ -9,6 +9,7 @@ export default function Home() {
       <Consultant/>
       <Vendor/>
       <Testimonials/>
+      <QandA/>
     </main>
   );
 }
