@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { Categories } from "./components";
+
 
 const config: Config = {
   content: [

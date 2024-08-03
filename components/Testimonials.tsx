@@ -49,12 +49,12 @@ const Testimonials = () => {
         </TextTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
           {Testimonial.map((test, index) => (
+            <div className='rounded-3xl p-1 bg-gradient-to-r from-blue-300 to-pink-300' style={{
+             transform: `rotate(${index % 2 === 0 ? '-2deg' : '2deg'})`,
+           }} >
            <div
            key={test.id}
            className={`p-6 px-14 shadow-md rounded-3xl bg-white transform transition-transform duration-300 gradient-border`}
-           style={{
-             transform: `rotate(${index % 2 === 0 ? '-2deg' : '2deg'})`,
-           }}
          >
               <p className="text-bodyText text-left mb-4 text-conBody leading-loose">{test.body}</p>
               <div className="flex items-center justify-between gap-4">
@@ -64,6 +64,7 @@ const Testimonials = () => {
                 </div>
                 <Image src={test.img} alt={test.alt} width={60} height={60} className="rounded-full" />
               </div>
+            </div>
             </div>
           ))}
         </div>

@@ -29,25 +29,33 @@
 }
 .catTextTitle{
   @apply text-categoryTextTitle
+  
 }
-.gradient-border {
+/*.gradient-border {
   position: relative;
-  border-radius: 1.5rem; /* Example: adjust as needed */
+  border-radius: 1.5rem; 
 }
 
 .gradient-border::before {
   content: '';
   position: absolute;
-  top: -3px; /* Adjust based on border-width */
-  right: -3px; /* Adjust based on border-width */
-  bottom: -3px; /* Adjust based on border-width */
-  left: -3px; /* Adjust based on border-width */
+  top: -3px; /* Adjust based on border-width 
+  right: -3px; /* Adjust based on border-width 
+  bottom: -3px; /* Adjust based on border-width 
+  left: -3px; /* Adjust based on border-width 
   border-radius: inherit;
   border: 3px solid transparent;
   border-image-slice: 1;
   border-width: 3px;
   border-image-source: linear-gradient(to right, rgba(12, 221, 108, 1) 0%, rgba(12, 221, 108, 1) 45%, rgba(13, 99, 178, 1) 55%, rgba(13, 99, 178, 1) 100%);
   z-index: -1;
-}
+}*/
+/*.gradient-border {
+  border: 3px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to right, rgba(12, 221, 108, 1) 0%, rgba(12, 221, 108, 1) 45%, rgba(13, 99, 178, 1) 55%, rgba(13, 99, 178, 1) 100%);
+}*/
+
 
 
