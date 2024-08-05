@@ -68,7 +68,7 @@ const Testimonials = () => {
         <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-6xl mb-10">
           Here’s What Our <span className="font-bold">Customers</span> Say
         </TextTitle>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {Testimonial.map((test, index) => (
             <div
               key={test.id}
