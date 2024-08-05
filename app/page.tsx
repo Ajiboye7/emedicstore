@@ -1,4 +1,4 @@
-import { Header, Partners, Perks, Categories, Consultant, Vendor, Testimonials, QandA, QA, Explore } from "@/components";
+import { Header, Partners, Perks, Categories, Consultant, Vendor, Testimonials, QandA, QA, Explore, GetStarted } from "@/components";
 export default function Home() {
   return (
     <main>
@@ -11,6 +11,7 @@ export default function Home() {
       <Testimonials/>
       <QA/>
       <Explore/>
+      <GetStarted/>
     </main>
   );
 }
