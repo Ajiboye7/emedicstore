@@ -4,26 +4,26 @@ import Image from "next/image";
 import { Blog } from "@/constants";
 const Explore = () => {
   return (
-    <section className="max-w-[1440px] mx-auto mt-20 p-8">
-      <div>
-        <p>BLOG & ARTICLES</p>
-        <TextTitle>Explore Our Blog & Articles</TextTitle>
+    <section className="w-full">
+      <div className="max-w-[1440px] mx-auto mt-20 p-8">
+        <p className="text-bodyText">BLOG & ARTICLES</p>
+        <TextTitle textStyle="text-2xl sm:text-4xl lg:text-5xl xl:text-7xl sm:w-3/5 my-10">Explore Our Blog & Articles</TextTitle>
     
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Blog.map((blog) => (
-          <div key={blog.id}className="card border border-blue-200 rounded-3xl flex flex-col overflow-hidden">
+          <div key={blog.id}className="card border border-primaryButtonBg rounded-3xl flex flex-col overflow-hidden">
             <div className="w-full h-[250px] overflow-hidden">
             <Image src={blog.img} alt={blog.alt} width={500} height={300} className="w-full h-full object-cover"/>
             </div>
-            <div className="px-10 shadow-lg border border-gray-200 flex flex-col justify-between flex-grow gap-2">
+            <div className="px-5 flex flex-col justify-between flex-grow gap-2">
             <p className="text-bodyText mt-5">8 Mins Read</p>
-            <p className="text-2xl text-bodyText font-bold">{blog.body}</p>
-            <div className="flex justify-between my-5">
-              <div className="flex gap-2 items-center">
+            <p className="text-1xl sm:text-BlogTextMd xl:text-BlogTextLg text-bodyText font-bold">{blog.body}</p>
+            <div className="flex  flex-wrap justify-between my-5">
+              <div className="flex whitespace-nowrap gap-2 items-center">
                 <Image src='/frame.svg' alt="frame" width={20} height={20}/>
                 <p>by Admin</p>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex whitespace-nowrap gap-2 items-center">
                 <Image src='/calendar.svg' alt="calendar" width={20} height={20} />
                 <p>16th November, 2023</p>
               </div>

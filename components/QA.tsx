@@ -1,44 +1,45 @@
-
-'use client'
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import TextTitle from './TextTitle';
-import { useState } from 'react';
 import { QuestionAnswer } from '@/constants';
 
 const QA = () => {
-  const [selectedQuestionId, setSelectedQuestionId] = useState<number | null>(null)
-  const handleQuestionClick =(id: number) =>{
-    setSelectedQuestionId(id);
-  }
+  const [selectedQuestionId, setSelectedQuestionId] = useState<number | null>(null);
 
-  const selectedQuestion =  QuestionAnswer.find(qa => qa.id === selectedQuestionId)
-  const selectedAnswer = selectedQuestion ? selectedQuestion.answer : 'Click question to display answer.'
+  const handleQuestionClick = (id: number) => {
+    setSelectedQuestionId(id);
+  };
+
+  const selectedQuestion = QuestionAnswer.find(qa => qa.id === selectedQuestionId);
+  const selectedAnswer = selectedQuestion ? selectedQuestion.answer : 'Click question to display answer.';
+
   return (
-    <section className='mt-20'>
-      <div className='max-w-[1440px] mx-auto  px-4 md:px-12'>
-        <p className='text-bodyText'>THINGS YOU MAY WANT TO KNOW</p>
-        <TextTitle textStyle='text-7xl my-14'>Got Questions?</TextTitle>
-        <div className='flex flex-col lg:flex-row gap-20 mx-auto max-h-[750px]'>
-        <div className='question flex flex-col gap-8 flex-1 max-w-[800px]  overflow-y-scroll hide-scrollbar'>
-          {QuestionAnswer.map(qa=>(
-            <button
-            key={qa.id}
-            className={`p-8 border border-primaryButtonBg rounded-3xl text-left text-1xl font-semibold text-categoryTextTitle ${qa.id === selectedQuestionId ? 'bg-primaryButtonBg text-white' : ''}`}
-             onClick={() => handleQuestionClick(qa.id)}
-            >
-              {qa.question}
-            </button>
-          ))}
+    <section className="mt-20">
+      <div className="max-w-[1440px] mx-auto px-4 md:px-12">
+        <p className="text-bodyText text-center">THINGS YOU MAY WANT TO KNOW</p>
+        <TextTitle textStyle="text-4xl md:text-5xl lg:text-6xl my-8 md:my-12">Got Questions?</TextTitle>
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-20 mx-auto max-h-[750px]">
+          <div className="question flex flex-col gap-4 md:gap-6 lg:gap-8 flex-1 max-w-full md:max-w-[800px] overflow-y-auto hide-scrollbar">
+            {QuestionAnswer.map(qa => (
+              <button
+                key={qa.id}
+                className={`p-4 md:p-6 lg:p-8 border border-primaryButtonBg rounded-3xl text-left text-sm md:text-base lg:text-lg font-semibold text-categoryTextTitle ${
+                  qa.id === selectedQuestionId ? 'bg-primaryButtonBg text-white' : ''
+                }`}
+                onClick={() => handleQuestionClick(qa.id)}
+              >
+                {qa.question}
+              </button>
+            ))}
+          </div>
+          <div className="text-sm md:text-base lg:text-xl text-white font-semibold border rounded-borderRadius flex flex-1 items-center justify-center max-w-full md:max-w-[800px] p-6 md:p-10 lg:p-14 text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart">
+            <p>{selectedAnswer}</p>
+          </div>
         </div>
-        <div className='text-2xl text-white font-semibold border rounded-borderRadius flex flex-1 items-center justify-center max-w-[800px] p-14  text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart'>
-          <p>{selectedAnswer}</p>
-        </div>
-        </div>
-        
       </div>
     </section>
   );
-}
+};
 
 export default QA;
 
