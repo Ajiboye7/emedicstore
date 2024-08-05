@@ -39,6 +39,7 @@ const config: Config = {
         'headerBody': '1.4rem',
         'conTitle' : '5.2rem',
         'conBody' : '1.3rem',
+        'BlogTextLg': '1.2rem'
       },
       borderRadius:{
         'borderRadius' : '2.5rem',
