@@ -1,21 +1,22 @@
-/*import React from "react";
+import React from "react";
 import TextTitle from "./TextTitle";
 import Image from "next/image";
 import { Blog } from "@/constants";
 const Explore = () => {
   return (
-    <section className="max-w-[1900px] mx-auto mt-20">
+    <section className="max-w-[1800px] mx-auto mt-20">
       <div>
         <p>BLOG & ARTICLES</p>
         <TextTitle>Explore Our Blog & Articles</TextTitle>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Blog.map((blog) => (
-          <div key={blog.id}className="card border border-solid border-blue-300">
-            <Image src={blog.img} alt={blog.alt} width={500} height={300}/>
-            <p>8 Mins Read</p>
-            <p>{blog.body}</p>
+          <div key={blog.id}className="card border border-blue-200 rounded-3xl">
+            <Image src={blog.img} alt={blog.alt} width={500} height={300} className="w-full"/>
+            <div className="px-10 shadow-lg border border-gray-200">
+            <p className="text-bodyText">8 Mins Read</p>
+            <p className="text-2xl text-bodyText">{blog.body}</p>
             <div>
-              <div>
+              <div className="">
                 <Image src='/frame.svg' alt="frame" width={20} height={20}/>
                 <p>by Admin</p>
               </div>
@@ -24,6 +25,8 @@ const Explore = () => {
                 <p>by Admin</p>
               </div>
             </div>
+            </div>
+            
           </div>
         ))}
         </div>
@@ -32,9 +35,9 @@ const Explore = () => {
   );
 };
 
-export default Explore;*/
+export default Explore;
 
-
+/*
 import React from 'react';
 import Image from 'next/image';
 import TextTitle from './TextTitle'; // Make sure you have this component
@@ -72,4 +75,4 @@ const Explore = () => {
 
 export default Explore;
 
-
+*/
