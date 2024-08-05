@@ -14,10 +14,10 @@ const QA = () => {
   const selectedQuestion =  QuestionAnswer.find(qa => qa.id === selectedQuestionId)
   const selectedAnswer = selectedQuestion ? selectedQuestion.answer : 'Click question to display answer.'
   return (
-    <section className='mt-20 '>
-      <div className='max-w-[1800px] mx-auto  px-4 md:px-12'>
+    <section className='mt-20'>
+      <div className='max-w-[1440px] mx-auto  px-4 md:px-12'>
         <p className='text-bodyText'>THINGS YOU MAY WANT TO KNOW</p>
-        <TextTitle textStyle='text-8xl my-14'>Got Questions?</TextTitle>
+        <TextTitle textStyle='text-7xl my-14'>Got Questions?</TextTitle>
         <div className='flex gap-20 mx-auto max-h-[750px]'>
         <div className='question flex flex-col gap-8 flex-1 max-w-[800px]max-h-full overflow-y-scroll hide-scrollbar'>
           {QuestionAnswer.map(qa=>(
