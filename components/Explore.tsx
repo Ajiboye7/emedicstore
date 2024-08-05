@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Blog } from "@/constants";
 const Explore = () => {
   return (
-    <section className="max-w-[1800px] mx-auto mt-20">
+    <section className="max-w-[1440px] mx-auto mt-20">
       <div>
         <p>BLOG & ARTICLES</p>
         <TextTitle>Explore Our Blog & Articles</TextTitle>

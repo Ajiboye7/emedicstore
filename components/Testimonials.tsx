@@ -63,7 +63,7 @@ import Image from "next/image";
 const Testimonials = () => {
   return (
     <section className="py-16">
-      <div className="container max-w-[1900px] mx-auto text-center px-4 md:px-12">
+      <div className="container max-w-[1440px] mx-auto text-center px-4 md:px-12">
         <p className="text-bodyText mb-4">DON’T JUST TAKE OUR WORD FOR IT</p>
         <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-6xl mb-10">
           Here’s What Our <span className="font-bold">Customers</span> Say

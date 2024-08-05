@@ -7,7 +7,7 @@ import TextTitle from "./TextTitle";
 const Categories = () => {
   return (
     <section className="py-16">
-      <div className="container max-w-[1900px] mx-auto px-4">
+      <div className="container max-w-[1440px] mx-auto px-4">
         <div className="text-center">
           <p className="text-bodyText">OUR BEST-SELLING CATEGORIES</p>
           <TextTitle textStyle=" md:text-6xl lg:text-7xl 2xl:text-8xl my-10">Your Go-To Categories</TextTitle>
