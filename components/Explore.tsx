@@ -41,25 +41,4 @@ export default Explore;
 
 alt={blog.alt} width={500} height={300} className="rounded-lg mb-4"/>
               <p className="text-sm text-gray-500 mb-2">8 Mins Read</p>
-              <p className="text-lg font-semibold mb-4">{blog.body}</p>
-              <div className="flex justify-between items-center text-sm text-gray-500">
-                <div className="flex items-center">
-                  <Image src="/frame.svg" alt="frame" width={20} height={20} className="mr-2"/>
-                  <p>by Admin</p>
-                </div>
-                <div className="flex items-center">
-                  <Image src="/calendar.svg" alt="calendar" width={20} height={20} className="mr-2"/>
-                  <p>by Admin</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Explore;
-
-*/
+              <p className="text-lg fo
