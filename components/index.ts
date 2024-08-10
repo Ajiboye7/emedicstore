@@ -13,6 +13,7 @@ import QandA from './QandA'
 import QA from './QA'
 import Explore from './Explore'
 import GetStarted from './GetStarted'
+import Footer from './Footer'
 
 export{
     Navbar,
@@ -29,6 +30,7 @@ export{
     QandA,
     QA,
     Explore,
-    GetStarted
+    GetStarted,
+    Footer
 }
 

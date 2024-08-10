@@ -272,3 +272,38 @@ export const HealthCategories =[
     }
  ]
 
+
+ export const FooterLinks =[ 
+    {
+        title:'Company',
+        links:[
+            {title: 'About US', url:'/'},
+            {title: 'Contact Us', url:'/'},
+            {title: 'Our Team', url:'/'},
+            {title: 'Careers', url:'/'},
+        ]
+    },
+    {
+        title:'Explore',
+        links:[
+            {title: 'Explore', url:'/'},
+            {title: 'Blog', url:'/'},
+            {title: 'FAQs', url:'/'},
+        ]
+    },
+    {
+        title:'Resources',
+        links:[
+            {title: 'Download the app', url:'/'},
+            {title: 'Stories', url:'/'},
+            {title: 'Press and Media', url:'/'},
+            {title: 'Security', url:'/'},
+        ]
+    },
+    {
+        title: 'Receive Our Weekly Digest',
+        links:[
+            {title:'Subscribe To Our News Letters', url:'/'}
+        ]
+    }
+]
