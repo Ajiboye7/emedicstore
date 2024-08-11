@@ -20,40 +20,7 @@ const Testimonials = () => {
               style={{
                 transform: `rotate(${index % 2 === 0 ? "-2deg" : "2deg"})`,
               }}
-            >
-              <div
-                key={test.id}
-                className={`p-6 px-14 shadow-md rounded-3xl h-full bg-white transform transition-transform duration-300 gradient-border`}
-              >
-                <p className="text-bodyText text-left mb-4 text-conBody leading-loose">
-                  {test.body}
-                </p>
-                <div className="w-50  h-[2px] bg-gradient-to-r from-primaryGradientStart to-primaryGradientEnd "></div>
-                <div className="flex items-center justify-between gap-4">
-                  <div className="flex flex-col gap-4">
-                    <p className="text-bodyText font-bold text-left">
-                      {test.name}
-                    </p>
-                    <p className="text-bodyText text-left">{test.location}</p>
-                  </div>
-                  <Image
-                    src={test.img}
-                    alt={test.alt}
-                    width={60}
-                    height={60}
-                    className="rounded-full"
-                  />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
 
-export default Testimonials;*/
 
 import React from "react";
 import TextTitle from "./TextTitle";
