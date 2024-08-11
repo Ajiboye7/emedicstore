@@ -2,12 +2,7 @@ import React from 'react';
 import { AppButtonProps } from '@/types';
 import Image from 'next/image';
 
-const AppButton = ({ title, containerStyles, Icon, textStyles,imageStyle,line1Styles,line2Styles }: AppButtonProps) => {
-    const titleLines = title.split('<br>');
-  
-    return (
-      <div>
-        <button type="submit" className={`p-5 rounded-2xl flex items-center gap-2 bg-black whitespace-nowrap ${containerStyles}`}>
+const AppButton = ({ title, containerStyles, Icon, textStylesclassName={`p-5 rounded-2xl flex items-center gap-2 bg-black whitespace-nowrap ${containerStyles}`}>
           <div className={textStyles}>
            {titleLines.map((line, index) => (
               index === 0 ? (
