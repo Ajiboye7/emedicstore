@@ -57,3 +57,42 @@
 .perk-title{
   @apply text-[16px] leading-[19.5px] font-[500]
 }
+.perk-body{
+  @apply text-[14px] leading-[22px] font-[400]
+}
+.cat-text{
+  @apply text-[35px] leading-[32px] font-[500]
+}
+.consultant-sub-text{
+  @apply text-[14px] leading-[22px] font-[400]
+}
+.testimonial-body{
+@apply text-[18px] leading-[32px] font-[400]
+}
+.testimonial-name{
+  @apply text-[16px] leading-[23px] font-[700]
+}
+.testimonial-location{
+  @apply text-[14px] leading-[23px] font-[400]
+}
+.question-text{
+  @apply text-[20px] leading-[32px] font-[500]
+}
+.answer-text{
+  @apply text-[35px] leading-[86px] font-[400]
+}
+.blog-text-top{
+  @apply text-[14px] leading-[19.5px] font-[400]
+}
+.blog-text-body{
+  @apply text-[18px] leading-[32px] font-[700]
+}
+.footer-title{
+  @apply text-[25px] leading-[22px] font-[600] text-center
+}
+.footer-links{
+  @apply text-[16px] leading-[25px] font-[590]
+}
+.footer-text-bottom{
+  @apply text-[18px] leading-[21.48px] font-[700]
+}
