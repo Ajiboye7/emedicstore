@@ -63,7 +63,7 @@ const Header = () => {
             width={20}
             height={20}
           />
-          <p className="text-bodyText sub-title">
+          <p className=" sub-title">
             AFRICA’S TOP HEALTHCARE MARKETPLACE
           </p>
         </div>
