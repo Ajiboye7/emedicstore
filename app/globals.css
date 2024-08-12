@@ -93,6 +93,12 @@
 .footer-links{
   @apply text-[16px] leading-[25px] font-[590]
 }
+.footer-body{
+  @apply text-[16px] leading-[30px] font-[500]
+}
+.footer-contact{
+  @apply text-[14px] leading-[30px] font-[700]
+}
 .footer-text-bottom{
   @apply text-[18px] leading-[21.48px] font-[700]
 }

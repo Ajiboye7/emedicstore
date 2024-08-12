@@ -55,7 +55,7 @@ import TextTitle from "./TextTitle";
 const Header = () => {
   return (
     <header className="gradient-header py-16 md:py-28">
-      <div className="container max-w-[1440px] mx-auto px-4">
+      <div className="container mx-auto px-4">
         <div className="flex items-center gap-2 mb-4">
           <Image
             src="/medal-star.svg"
@@ -67,7 +67,7 @@ const Header = () => {
             AFRICA’S TOP HEALTHCARE MARKETPLACE
           </p>
         </div>
-        <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-7xl 2xl:text-8xl my-8 md:my-14 max-w-[1400px]">
+        <TextTitle textStyle="text-title my-8 md:my-14 max-w-[1400px]">
           Your <span className="font-bold">Accessible & Budget-</span><br />
           <span className="font-bold">friendly HealthCare</span> Market.
         </TextTitle>
