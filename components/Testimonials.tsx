@@ -64,7 +64,7 @@ const Testimonials = () => {
   return (
     <section className="py-16">
       <div className="container mx-auto text-center px-4 md:px-12">
-        <p className="text-bodyText mb-4">DON’T JUST TAKE OUR WORD FOR IT</p>
+        <p className="text-bodyText sub-title mb-4">DON’T JUST TAKE OUR WORD FOR IT</p>
         <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-6xl mb-10">
           Here’s What Our <span className="font-bold">Customers</span> Say
         </TextTitle>
@@ -78,16 +78,16 @@ const Testimonials = () => {
               }}
             >
               <div className="p-6 px-8 md:px-10 lg:px-12 lg:py-14 shadow-md rounded-3xl h-full bg-white transform transition-transform duration-300">
-                <p className="text-bodyText text-left mb-14 text-conBody leading-loose text-sm md:text-base lg:text-lg">
+                <p className="text-bodyText text-left mb-14 testimonial-body">
                   {test.body}
                 </p>
                 <div className="w-full h-[2px] mb-4 bg-gradient-to-r from-primaryGradientStart to-primaryGradientEnd"></div>
                 <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-4">
                   <div className="flex flex-col items-start gap-1 md:gap-2">
-                    <p className="text-bodyText font-bold text-left text-sm md:text-base lg:text-lg">
+                    <p className="text-bodyText font-bold text-left testimonial-name">
                       {test.name}
                     </p>
-                    <p className="text-bodyText text-left text-xs md:text-sm lg:text-base">
+                    <p className="text-bodyText text-left testimonial-location">
                       {test.location}
                     </p>
                   </div>

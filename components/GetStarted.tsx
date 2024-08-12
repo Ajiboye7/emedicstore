@@ -9,7 +9,7 @@ const GetStarted = () => {
       <div className=' flex flex-col  mx-auto'>
         <div className='flex flex-col justify-center items-center gap-12 mb-8 '>
         <TextTitle textStyle=' text-2xl sm:text-4xl md:text-6xl xl:text-7xl '>Get Our <span className='font-bold'> App</span> Today</TextTitle>
-        <p className='md:w-[700px] text-center sm:text-lg md:text-xl xl:text-2xl text-bodyText leading-relaxed'>Experience healthcare at your fingertips—get our app for easy access to quality healthcare anytime, anywhere.</p>
+        <p className='md:w-[700px] text-center text-body text-bodyText leading-relaxed'>Experience healthcare at your fingertips—get our app for easy access to quality healthcare anytime, anywhere.</p>
         </div>
         <div className='flex lg:flex-row flex-col gap-10 justify-around items-center'>
             <Image src= '/Samsung Galaxy S20 5G.svg' alt='screen'  width={300} height={300}/>

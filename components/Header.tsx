@@ -63,15 +63,15 @@ const Header = () => {
             width={20}
             height={20}
           />
-          <p className="text-bodyText text-sm md:text-base">
+          <p className="text-bodyText sub-title">
             AFRICA’S TOP HEALTHCARE MARKETPLACE
           </p>
         </div>
-        <TextTitle textStyle="text-title my-8 md:my-14 max-w-[1400px]">
+        <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-7xl 2xl:text-8xl my-8 md:my-14 max-w-[1400px]">
           Your <span className="font-bold">Accessible & Budget-</span><br />
           <span className="font-bold">friendly HealthCare</span> Market.
         </TextTitle>
-        <p className="text-base sm:text-lg md:text-xl xl:text-2xl max-w-[700px] md:max-w-[900px] xl:max-w-[1200px] text-bodyText mb-10 leading-relaxed">
+        <p className="text-body max-w-[700px] md:max-w-[900px] xl:max-w-[1200px] text-bodyText mb-10 leading-relaxed">
           Experience healthcare that's effortlessly seamless, remarkably
           accessible, surprisingly affordable, and always conveniently tailored
           to you. No more long trips to the Pharmacy.

@@ -16,13 +16,13 @@ const Consultant = () => {
           <TextTitle textStyle='text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-conTitle mb-8 md:mb-12 text-center md:text-left'>
             Specialist <span className='font-bold'>Consultation</span> at Your Fingertips.
           </TextTitle>
-          <p className='text-bodyText text-base sm:text-lg md:text-xl lg:text-2xl 2xl:text-2xl mb-8 leading-relaxed md:text-left max-w-[900px]'>
+          <p className='text-bodyText text-body mb-8 leading-relaxed md:text-left max-w-[900px]'>
             Unlock personalized care with our online chat consultation. Connect with certified specialists, share images and videos for swift, expert solutions.
           </p>
           {Consult.map((con) => (
             <div key={con.id} className='flex items-center gap-1 mb-5'>
               <Image src={con.img} alt={con.alt} width={20} height={20} />
-              <p className='text-bodyText'>{con.body}</p>
+              <p className='text-bodyText consultant-sub-text'>{con.body}</p>
             </div>
           ))}
           <div className='mt-8 md:mt-12 flex justify-center md:justify-start'>

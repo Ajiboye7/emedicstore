@@ -7,7 +7,7 @@ import CustomButton from "./CustomButton";
 const Perks = () => {
   return (
     <section className="container px-4 py-8  mx-auto">
-        <p className="text-bodyText mb-10">The eMEDICstore LIFESTYLE</p>
+        <p className="text-bodyText sub-title mb-10">The eMEDICstore LIFESTYLE</p>
       <div className="flex flex-col md:flex-row items-start gap-8 mb-8 mx-auto">
         {/* Left Write-up */}
         <div className="w-full lg:w-2/3">
@@ -15,7 +15,7 @@ const Perks = () => {
           <TextTitle textStyle="md:text-6xl xl:text-7xl 2xl:text-textTitle font-normal mt-10 ">
             Seamless. Trusted. Affordable. Accessible.
           </TextTitle>
-          <p className="text-bodyText mb-4 mt-10 md:text-perkBodyMd lg:text-perkBodyLg 2xl:text-perkBody leading-relaxed">
+          <p className="text-bodyText mb-4 mt-10 text-body leading-relaxed">
             With eMedics, the advantages are endless, offering a comprehensive
             healthcare experience that seamlessly integrates trust,
             affordability, and accessibility into every aspect of your
@@ -63,10 +63,10 @@ const Perks = () => {
                 className="relative rounded-full"
               />
             </div>
-            <h3 className="text-perkHead font-bold mb-4 text-perkTitle">
+            <h3 className="perk-title font-bold mb-4 text-perkTitle">
               {perksData[0].title}
             </h3>
-            <p className="text-bodyText mb-4 max-w-[300px] leading-loose">
+            <p className="text-bodyText perk-body mb-4 max-w-[300px] leading-loose">
               {perksData[0].body}
             </p>
           </div>
@@ -97,10 +97,10 @@ const Perks = () => {
               className="relative rounded-full"
             />
           </div>
-          <h3 className="text-perkHead font-bold mb-4 text-perkTitle">
+          <h3 className="perk-title font-bold mb-4 text-perkTitle">
             {perksData[0].title}
           </h3>
-          <p className="text-bodyText mb-4 max-w-[300px] leading-loose">
+          <p className="text-bodyText perk-body mb-4 max-w-[300px] leading-loose">
             {perksData[0].body}
           </p>
         </div>
@@ -128,10 +128,10 @@ const Perks = () => {
                 className="relative rounded-full"
               />
             </div>
-            <h3 className="text-perkHead font-bold mb-4 text-perkTitle">
+            <h3 className="perk-title font-bold mb-4 text-perkTitle">
               {perk.title}
             </h3>
-            <p className="text-bodyText mb-4 max-w-[290px] leading-loose">
+            <p className="text-bodyText perk-body mb-4 max-w-[290px] leading-loose">
               {perk.body}
             </p>
           </div>
