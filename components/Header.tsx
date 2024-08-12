@@ -55,7 +55,7 @@ import TextTitle from "./TextTitle";
 const Header = () => {
   return (
     <header className="gradient-header py-16 md:py-28">
-      <div className="container max-w-[1440px] mx-auto px-4">
+      <div className="container  mx-auto px-4">
         <div className="flex items-center gap-2 mb-4">
           <Image
             src="/medal-star.svg"

@@ -42,3 +42,6 @@
   scrollbar-width: none;  /* Firefox */
 }
 
+.text-title{
+  @apply text-[70px] leading-[86px] font-[400] 
+}
