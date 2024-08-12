@@ -45,3 +45,6 @@
 .text-title{
   @apply text-[70px] leading-[86px] font-[400] 
 }
+.sub-title{
+  @apply text-[12px] leading-[19.5px] font-[400]
+}
