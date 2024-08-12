@@ -15,7 +15,7 @@ const QA = () => {
 
   return (
     <section className="mt-20">
-      <div className="max-w-[1440px] mx-auto px-4 md:px-12">
+      <div className="container mx-auto px-4 md:px-12">
         <p className="text-bodyText text-center">THINGS YOU MAY WANT TO KNOW</p>
         <TextTitle textStyle="text-4xl md:text-5xl lg:text-6xl my-8 md:my-12">Got Questions?</TextTitle>
         <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-20 mx-auto max-h-[750px]">

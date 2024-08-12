@@ -5,7 +5,7 @@ import { Blog } from "@/constants";
 const Explore = () => {
   return (
     <section className="">
-      <div className="max-w-[1440px] mx-auto mt-20 p-8">
+      <div className="container mx-auto mt-20 p-8">
         <p className="text-bodyText">BLOG & ARTICLES</p>
         <TextTitle textStyle="text-2xl sm:text-4xl lg:text-5xl xl:text-7xl sm:w-3/5 my-10">Explore Our Blog & Articles</TextTitle>
     
