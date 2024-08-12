@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 const GetStarted = () => {
   return (
-    <section className='max-w-[1440px] mx-auto p-10 pb-0 pt-24  gradient-header rounded-3xl'>
-      <div className='flex flex-col max-w-[1440px] mx-auto'>
+    <section className=' container mx-auto p-10 pb-0 pt-24  gradient-header rounded-3xl'>
+      <div className=' flex flex-col  mx-auto'>
         <div className='flex flex-col justify-center items-center gap-12 mb-8 '>
         <TextTitle textStyle=' text-2xl sm:text-4xl md:text-6xl xl:text-7xl '>Get Our <span className='font-bold'> App</span> Today</TextTitle>
         <p className='md:w-[700px] text-center sm:text-lg md:text-xl xl:text-2xl text-bodyText leading-relaxed'>Experience healthcare at your fingertips—get our app for easy access to quality healthcare anytime, anywhere.</p>
