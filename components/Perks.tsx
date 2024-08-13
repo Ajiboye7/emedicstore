@@ -12,8 +12,8 @@ const Perks = () => {
         {/* Left Write-up */}
         <div className="w-full lg:w-2/3">
           {/*md:text-6xl xl:text-7xl 2xl:text-textTitle */}
-          <TextTitle textStyle="font-normal mt-10 ">
-            Seamless. Trusted. Affordable. Accessible.
+          <TextTitle textStyle=" mt-10 ">
+            Seamless. Trusted. <br/>Affordable.Accessible.
           </TextTitle>
           <p className="text-bodyText mb-4 mt-10 text-body leading-relaxed">
             With eMedics, the advantages are endless, offering a comprehensive

@@ -14,8 +14,8 @@ const Consultant = () => {
         </div>
         <div className='w-full md:w-1/2 xl:w-2/3'>
         {/*text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-conTitle */}
-          <TextTitle textStyle='mb-8 md:mb-12 text-center md:text-left'>
-            Specialist <span className='font-bold'>Consultation</span> at Your Fingertips.
+          <TextTitle textStyle='mb-8 md:mb-12  md:text-left'>
+            Specialist <span className='font-bold'>Consultation</span> <br/> at Your Fingertips.
           </TextTitle>
           <p className='text-bodyText text-body mb-8 leading-relaxed md:text-left max-w-[900px]'>
             Unlock personalized care with our online chat consultation. Connect with certified specialists, share images and videos for swift, expert solutions.
