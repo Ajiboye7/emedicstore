@@ -201,9 +201,9 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md py-4 overflow-hidden ">
-      <div className="container mx-auto flex  items-center justify-between px-4">
+      <div className="container mx-auto flex  items-center justify-between px-4 border border-solid border-blue-600">
         <div className="flex items-center justify-between w-full md:w-auto">
-          <Image src="/Logo.svg" alt="logo" width={150} height={150} />
+          <Image src="/Logo.svg" alt="logo" width={150} height={150}  className="w-[116px] h-[27px]"/>
           <div className="flex items-center md:hidden">
             <div className="relative mr-4">
               <Image
@@ -231,9 +231,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="hidden md:flex items-center space-x-4 pl-4 border-l-2 border-gray-200">
+        <div className="hidden md:flex items-center space-x-4 pl-10 border-l-2 border-gray-200">
           {NavLinks.map((link) => (
-            <Link href={link.url} key={link.id} className="text-gray-700 nav-text hover:text-blue-500">
+            <Link href={link.url} key={link.id} className="text-gray-700 nav-text hover:text-blue-500 whitespace-nowrap">
               {link.title}
             </Link>
           ))}
@@ -280,7 +280,7 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {NavLinks.map((link) => (
-            <Link href={link.url} key={link.id} className="block text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md text-base font-medium">
+            <Link href={link.url} key={link.id} className="block text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md nav-text">
               {link.title}
             </Link>
           ))}
