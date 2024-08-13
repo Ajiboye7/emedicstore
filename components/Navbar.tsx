@@ -201,10 +201,9 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md py-4 overflow-hidden ">
-      <div className="container mx-auto flex flex-wrap items-center justify-between px-4">
+      <div className="container mx-auto flex  items-center justify-between px-4">
         <div className="flex items-center justify-between w-full md:w-auto">
           <Image src="/Logo.svg" alt="logo" width={150} height={150} />
-
           <div className="flex items-center md:hidden">
             <div className="relative mr-4">
               <Image
@@ -234,7 +233,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center space-x-4 pl-4 border-l-2 border-gray-200">
           {NavLinks.map((link) => (
-            <Link href={link.url} key={link.id} className="text-gray-700 hover:text-blue-500">
+            <Link href={link.url} key={link.id} className="text-gray-700 nav-text hover:text-blue-500">
               {link.title}
             </Link>
           ))}
