@@ -11,8 +11,8 @@ const Perks = () => {
       <div className="flex flex-col md:flex-row items-start gap-8 mb-8 mx-auto">
         {/* Left Write-up */}
         <div className="w-full lg:w-2/3">
-          
-          <TextTitle textStyle="md:text-6xl xl:text-7xl 2xl:text-textTitle font-normal mt-10 ">
+          {/*md:text-6xl xl:text-7xl 2xl:text-textTitle */}
+          <TextTitle textStyle="font-normal mt-10 ">
             Seamless. Trusted. Affordable. Accessible.
           </TextTitle>
           <p className="text-bodyText mb-4 mt-10 text-body leading-relaxed">

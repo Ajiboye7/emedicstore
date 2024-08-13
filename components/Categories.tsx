@@ -10,7 +10,8 @@ const Categories = () => {
       <div className="container  mx-auto px-4">
         <div className="text-center">
           <p className="text-bodyText sub-title">OUR BEST-SELLING CATEGORIES</p>
-          <TextTitle textStyle=" md:text-6xl lg:text-7xl 2xl:text-8xl my-10">Your Go-To Categories</TextTitle>
+          {/*md:text-6xl lg:text-7xl 2xl:text-8xl */}
+          <TextTitle textStyle=" my-10">Your Go-To Categories</TextTitle>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {HealthCategories.map((cat) => (

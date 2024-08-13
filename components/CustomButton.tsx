@@ -6,7 +6,7 @@ const CustomButton = ({ title, buttonStyle,iconStyle,Icon,titleStyle}: CustomBut
   return (
     <div>
       <button type='submit' className={`flex items-center gap-2 rounded-full whitespace-nowrap ${buttonStyle}`}>
-        <span className={`${titleStyle}`}>{title}</span>
+        <span className={`${titleStyle} btn-text`}>{title}</span>
         <Image 
           alt='buttonIcon'
           src={Icon}

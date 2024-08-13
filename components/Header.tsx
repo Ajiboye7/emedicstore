@@ -67,7 +67,8 @@ const Header = () => {
             AFRICA’S TOP HEALTHCARE MARKETPLACE
           </p>
         </div>
-        <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-7xl 2xl:text-8xl my-8 md:my-14 max-w-[1400px]">
+        {/*text-3xl sm:text-4xl md:text-5xl xl:text-7xl 2xl:text-8xl*/}
+        <TextTitle textStyle=" my-8 md:my-14 max-w-[1400px]">
           Your <span className="font-bold">Accessible & Budget-</span><br />
           <span className="font-bold">friendly HealthCare</span> Market.
         </TextTitle>

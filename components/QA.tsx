@@ -17,7 +17,8 @@ const QA = () => {
     <section className="mt-20">
       <div className="container mx-auto px-4 md:px-12">
         <p className="text-bodyText sub-title text-center">THINGS YOU MAY WANT TO KNOW</p>
-        <TextTitle textStyle="text-4xl md:text-5xl lg:text-6xl my-8 md:my-12">Got Questions?</TextTitle>
+        {/*text-4xl md:text-5xl lg:text-6xl */}
+        <TextTitle textStyle="my-8 md:my-12">Got Questions?</TextTitle>
         <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-20 mx-auto max-h-[750px]">
           <div className="question flex flex-col gap-4 md:gap-6 lg:gap-8 flex-1 max-w-full md:max-w-[800px] overflow-y-auto hide-scrollbar">
             {QuestionAnswer.map(qa => (

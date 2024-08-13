@@ -46,7 +46,7 @@
   @apply text-[14px] leading-[20px] font-[400] text-center
 }
 .text-title{
-  @apply text-[90px] leading-[86px] font-[400] 
+  @apply text-[70px] leading-[86px] font-[400]
 }
 .sub-title{
   @apply text-[12px] leading-[19.5px] font-[400] text-bodyText

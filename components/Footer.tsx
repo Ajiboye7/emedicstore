@@ -3,12 +3,12 @@ import { FooterLinks } from "@/constants";
 import Link from "next/link";
 const Footer = () => {
     return (
-      <footer className="bg-FooterBackground w-full">
+      <footer className="bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart w-full">
         <div className="content flex flex-col max-w-[1600px] mx-auto p-10 justify-end sm:mt-0">
           <div className="top flex flex-row justify-between flex-wrap gap-5 mb-28">
             <div className="left items-center">
               <div className="logo flex items-center gap-3">
-                <Image src="/Logo.svg" alt="logo" width={80} height={80} />
+                <Image src="/Rectangle 3351.svg" alt="logo" width={80} height={80} />
                 <h2 className="text-fontColor text-3xl font-bold">CardCircuit</h2>
               </div>
               <p className="text-fontColor text-footerLinkFont py-7 leading-relaxed">

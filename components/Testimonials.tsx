@@ -65,7 +65,8 @@ const Testimonials = () => {
     <section className="py-16">
       <div className="container mx-auto text-center px-4 md:px-12">
         <p className="text-bodyText sub-title mb-4">DON’T JUST TAKE OUR WORD FOR IT</p>
-        <TextTitle textStyle="text-3xl sm:text-4xl md:text-5xl xl:text-6xl mb-10">
+        {/*text-3xl sm:text-4xl md:text-5xl xl:text-6xl*/}
+        <TextTitle textStyle="mb-10">
           Here’s What Our <span className="font-bold">Customers</span> Say
         </TextTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
