@@ -260,7 +260,7 @@ export const HealthCategories =[
     {
         id: 2,
         img: '/Blog 2 Image.svg',
-        alt: 'blog2',
+        alt: 'blog1',
         body: 'Best Natural Ways to Boost Immune System.'
     },
 
