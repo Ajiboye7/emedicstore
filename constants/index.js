@@ -258,10 +258,10 @@ export const HealthCategories =[
     },
 
     {
-        id: 2,
-        img: '/Blog 2 Image.svg',
-        alt: 'blog1',
-        body: 'Best Natural Ways to Boost Immune System.'
+        id: 1,
+        img: '/Blog 1 Image.svg',
+        alt: 'blog2',
+        body: 'Sexual Dysfunction in Females: Definition, Types, Causes, Symptoms, and Treatments.'
     },
 
     {
