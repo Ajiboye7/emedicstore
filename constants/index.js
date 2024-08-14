@@ -252,14 +252,14 @@ export const HealthCategories =[
  export const Blog =[
     {
         id: 1,
-        img: '/Blog 2 Image.svg',
+        img: '/Blog 1 Image.svg',
         alt: 'blog1',
         body: 'Sexual Dysfunction in Females: Definition, Types, Causes, Symptoms, and Treatments.'
     },
 
     {
         id: 2,
-        img: '/Blog 1 Image.svg',
+        img: '/Blog 2 Image.svg',
         alt: 'blog2',
         body: 'Best Natural Ways to Boost Immune System.'
     },
