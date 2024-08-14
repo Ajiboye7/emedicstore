@@ -252,7 +252,7 @@ export const HealthCategories =[
  export const Blog =[
     {
         id: 1,
-        img: '/Blog 1 Image.svg',
+        img: '/Blog 2 Image.svg',
         alt: 'blog1',
         body: 'Sexual Dysfunction in Females: Definition, Types, Causes, Symptoms, and Treatments.'
     },
