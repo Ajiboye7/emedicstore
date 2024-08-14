@@ -5,7 +5,7 @@ import CustomButton from "./CustomButton";
 const Vendor = () => {
   return (
     <section className="w-full gradient-header">
-      <div className="flex flex-col gap-10 items-center mx-auto py-20">
+      <div className="flex flex-col gap-4 sm:gap-10 items-center mx-auto py-10 sm:py-20">
         <p className="text-bodyText sub-title">JOIN OUR SUPPLIER NETWORK</p>
         {/*text-2xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-8xl */}
         <TextTitle textStyle=" text-center">
