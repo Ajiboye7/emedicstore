@@ -5,10 +5,10 @@ import { Blog } from "@/constants";
 const Explore = () => {
   return (
     <section className="">
-      <div className="container mx-auto mt-20 p-8">
+      <div className="container mx-auto sm:mt-20 p-8">
         <p className="text-bodyText">BLOG & ARTICLES</p>
         {/*text-2xl sm:text-4xl lg:text-5xl xl:text-7xl */}
-        <TextTitle textStyle=" sm:w-3/5 my-10">Explore Our Blog <br/> & Articles</TextTitle>
+        <TextTitle textStyle=" sm:w-3/5 sm:my-8">Explore Our Blog <br/> & Articles</TextTitle>
     
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Blog.map((blog) => (

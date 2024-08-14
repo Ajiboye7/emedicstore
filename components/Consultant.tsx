@@ -6,7 +6,7 @@ import CustomButton from "./CustomButton";
 
 const Consultant = () => {
   return (
-    <section className='container mx-auto items-center justify-center px-4 md:px-12 pt-12 pb-20'>
+    <section className='container mx-auto items-center justify-center px-4 md:px-12 pt-12 pb-12'>
       <p className='text-center text-bodyText'>INSTANT HEALTH INSIGHTS</p>
       <div className='content w-full flex flex-col items-center lg:flex-row gap-12 mt-10'>
         <div className='w-full lg:w-1/2 xl:w-1/3 mx-auto flex justify-center'>

@@ -62,7 +62,7 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <section className="py-16">
+    <section className="pt-16 md:py-16 ">
       <div className="container mx-auto text-center px-4 md:px-12">
         <p className="text-bodyText sub-title mb-4">DON’T JUST TAKE OUR WORD FOR IT</p>
         {/*text-3xl sm:text-4xl md:text-5xl xl:text-6xl*/}
