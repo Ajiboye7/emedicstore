@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const GetStarted = () => {
   return (
-    <section className=' container mx-auto p-10 pb-0 pt-24  gradient-header rounded-3xl'>
+    <section className=' container mx-auto p-10 pb-0 sm:pt-24  gradient-header rounded-3xl'>
       <div className=' flex flex-col  mx-auto'>
         <div className='flex flex-col justify-center items-center gap-12 mb-8 '>
           {/*text-2xl sm:text-4xl md:text-6xl xl:text-7xl */}
