@@ -23,6 +23,8 @@ const config: Config = {
         categoryTextTitle: '#0D63B2',
         borderGradientStart: '#0CDD6C',
         borderGradientEnd: '#0D63B2',
+        footerText:'#FCFCFC',
+        footerBorderLine:'#D9D9D9',
 
 
       },

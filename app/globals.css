@@ -97,17 +97,17 @@
   @apply text-[14px] leading-[32px] font-[400]
 }
 .footer-title{
-  @apply text-[25px] leading-[22px] font-[600] text-center
+  @apply text-[25px] leading-[22px] font-[600] text-center  text-footerText
 }
 .footer-links{
-  @apply text-[16px] leading-[25px] font-[590]
+  @apply text-[16px] leading-[25px] font-[590] text-footerText
 }
 .footer-body{
-  @apply text-[16px] leading-[30px] font-[500]
+  @apply text-[16px] leading-[30px] font-[500] text-footerText
 }
 .footer-contact{
-  @apply text-[14px] leading-[30px] font-[700]
+  @apply text-[14px] leading-[30px] font-[700]  text-footerText
 }
 .footer-text-bottom{
-  @apply text-[18px] leading-[21.48px] font-[700]
+  @apply text-[18px] leading-[21.48px] font-[700]  text-footerText
 }

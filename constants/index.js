@@ -286,7 +286,8 @@ export const HealthCategories =[
     {
         title:'Explore',
         links:[
-            {title: 'Explore', url:'/'},
+            {title: 'Products', url:'/'},
+            {title: 'Services', url:'/'},
             {title: 'Blog', url:'/'},
             {title: 'FAQs', url:'/'},
         ]
@@ -295,15 +296,15 @@ export const HealthCategories =[
         title:'Resources',
         links:[
             {title: 'Download the app', url:'/'},
-            {title: 'Stories', url:'/'},
-            {title: 'Press and Media', url:'/'},
-            {title: 'Security', url:'/'},
+            {title: 'Return Policy', url:'/'},
+            {title: 'Quality Policy', url:'/'},
+            {title: 'Press & Media', url:'/'},
         ]
     },
     {
-        title: 'Receive Our Weekly Digest',
+        title: 'Subscribe to our NewsLetter',
         links:[
-            {title:'Subscribe To Our News Letters', url:'/'}
+            {title:'Enter your email', url:'/'}
         ]
     }
 ]
