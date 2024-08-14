@@ -19,8 +19,8 @@ const QA = () => {
         <p className="text-bodyText sub-title text-center">THINGS YOU MAY WANT TO KNOW</p>
         {/*text-4xl md:text-5xl lg:text-6xl */}
         <TextTitle textStyle="my-8 md:my-12">Got Questions?</TextTitle>
-        <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-20 mx-auto max-h-[750px]">
-          <div className="question flex flex-col gap-4 md:gap-6 lg:gap-8 flex-1 max-w-full md:max-w-[800px] overflow-y-auto hide-scrollbar">
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-20 mx-auto ">
+          <div className="question flex flex-col gap-4 md:gap-6 lg:gap-8 flex-1 max-w-full max-h-[750px] md:max-w-[800px] overflow-y-auto hide-scrollbar">
             {QuestionAnswer.map(qa => (
               <button
                 key={qa.id}
@@ -33,7 +33,7 @@ const QA = () => {
               </button>
             ))}
           </div>
-          <div className="answer-text text-white font-semibold border rounded-borderRadius flex flex-1 items-center justify-center max-w-full md:max-w-[800px] p-6 md:p-10 lg:p-14 text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart">
+          <div className="answer-text text-white font-semibold border rounded-borderRadius flex flex-1 items-center justify-center max-h-[750px] max-w-full md:max-w-[800px] p-6 md:p-10 lg:p-14 text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart">
             <p>{selectedAnswer}</p>
           </div>
         </div>

@@ -85,7 +85,7 @@
   @apply text-[20px] leading-[32px] font-[500]
 }
 .answer-text{
-  @apply text-[35px] leading-[86px] font-[400]
+  @apply text-[28px] leading-[40px] font-[700]
 }
 .blog-text-top{
   @apply text-[14px] leading-[19.5px] font-[400]
