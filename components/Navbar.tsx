@@ -16,7 +16,7 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="bg-white shadow-md px-4">
+    <nav className="bg-white shadow-md px-4 fixed top-0 left-0 w-full">
       <div className="container h-[80px] mx-auto flex items-center justify-between px-4">
         <Image src="/Logo.svg" alt="logo" width={150} height={150} />
 
