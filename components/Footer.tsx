@@ -3,7 +3,7 @@ import { FooterLinks } from "@/constants";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart w-full">
+    <footer className="bg-gradient-to-r from-primaryGradientStart to-primaryGradientEnd w-full">
       <div className="content flex flex-col max-w-[1600px] mx-auto p-10 justify-end sm:mt-0">
         <div className="top flex flex-row justify-between flex-wrap gap-5 mb-28">
           <div className="left items-center">
