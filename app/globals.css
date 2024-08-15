@@ -41,7 +41,9 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-
+.searchInput{
+  @apply border-[1px] rounded-[25px]
+}
 .btn-text{
   @apply text-[14px] leading-[20px] font-[400] text-center
 }
@@ -111,3 +113,4 @@
 .footer-text-bottom{
   @apply text-[18px] leading-[21.48px] font-[700]  text-footerText
 }
+

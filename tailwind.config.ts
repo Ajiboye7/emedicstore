@@ -49,6 +49,9 @@ const config: Config = {
       },
       width:{
         'BlogTitleW' : '50%',
+      },
+      borderColor:{
+        'searchInput' : '#788190'
       }
     },
   },

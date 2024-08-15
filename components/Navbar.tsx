@@ -16,8 +16,8 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="bg-white shadow-md px-4 border border-solid border-blue-500">
-      <div className="container h-[80px] mx-auto flex items-center justify-between px-4 border border-solid border-blue-300 ">
+    <nav className="bg-white shadow-md px-4">
+      <div className="container h-[80px] mx-auto flex items-center justify-between px-4">
         <Image src="/Logo.svg" alt="logo" width={150} height={150} />
 
         <div className="hidden md:flex items-center space-x-6 border-l-2 md:pl-10 lg:pl-28 xl:pl-3 2xl:pl-10 px-1">
@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
           <button
             type="button"
-            className="text-gray-700 hover:text-blue-500 focus:outline-none focus:text-blue-500"
+            className="text-borderGradientStart focus:outline-none focus:text-green-500"
             onClick={toggleMenu}
           >
             <FontAwesomeIcon
