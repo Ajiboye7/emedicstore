@@ -56,7 +56,7 @@ import Image from 'next/image';
 
 const SearchInput = () => {
   return (
-    <div className="w-[400px] relative mt-4 md:mt-0 searchInput">
+    <div className="w-[377px] sm:w-[400px] relative mt-4 md:mt-0 searchInput">
       <input
         type="text"
         placeholder="Enter Product, Active Ingredient or Manufacturer's name"
