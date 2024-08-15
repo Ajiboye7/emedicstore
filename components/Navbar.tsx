@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link
               href={link.url}
               key={link.id}
-              className="text-gray-700 hover:text-blue-500 nav-text whitespace-nowrap"
+              className="text-gray-700 hover:text-green-500 nav-text whitespace-nowrap"
             >
               {link.title}
             </Link>
