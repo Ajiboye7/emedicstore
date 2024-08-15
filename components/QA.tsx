@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import TextTitle from './TextTitle';
 import { QuestionAnswer } from '@/constants';
+import Image from 'next/image';
 
 const QA = () => {
   const [selectedQuestionId, setSelectedQuestionId] = useState<number | null>(null);
@@ -33,8 +34,11 @@ const QA = () => {
               </button>
             ))}
           </div>
-          <div className="answer-text text-white font-semibold border rounded-borderRadius flex flex-1 items-center justify-center max-h-[750px] max-w-full md:max-w-[800px] p-6 md:p-10 lg:p-14 text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart">
-            <p>{selectedAnswer}</p>
+          <div className="answer-text font-semibold border rounded-borderRadius flex flex-1 items-center justify-center max-h-[750px] max-w-full md:max-w-[800px] p-6 md:p-10 lg:p-14 text-center leading-relaxed bg-gradient-to-r from-primaryGradientEnd to-primaryGradientStart">
+            <div className='flex relative'>
+            <p className='text-white'>{selectedAnswer}</p>
+       
+            </div>
           </div>
         </div>
       </div>
