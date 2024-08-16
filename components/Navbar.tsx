@@ -292,4 +292,69 @@ const Navbar = () => {
           />
           
           <div className="relative">
-      
+            <Image
+              src='/Cart.svg'
+              alt="cart"
+              width={40}
+              height={40}
+              className="inline-block"
+            />
+            <Image
+              src='/Cart Number.svg'
+              alt='cart number'
+              width={23}
+              height={23}
+              className="absolute left-6 top-0.5 transform -translate-y-1"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu 
+      <div className="md:hidden">
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          {NavLinks.map((link) => (
+            <Link href={link.url} key={link.id} className="block text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md text-base font-medium">
+              {link.title}
+            </Link>
+          ))}
+          <SearchInput />
+
+          <CustomButton
+            title="Become a vendor"
+            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-4 py-2"
+            iconStyle=""
+            Icon="/SVG.svg"
+             titleStyle="text-btnTextPrimary"
+          />
+          <CustomButton
+            title="Sign Up"
+            buttonStyle="bg-primary-button px-4 py-2"
+            iconStyle=""
+            Icon="/SVG2.svg"
+             titleStyle="text-btnTextSecondary"
+          />
+
+          <div className="relative mt-4">
+            <Image
+              src='/Cart.svg'
+              alt="cart"
+              width={40}
+              height={40}
+              className="inline-block"
+            />
+            <Image
+              src='/Cart Number.svg'
+              alt='cart number'
+              width={23}
+              height={23}
+              className="absolute left-6 top-0.5 transform -translate-y-1"
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;*/
