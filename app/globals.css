@@ -37,15 +37,7 @@
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-.searchInput{
-  @apply border-[1px] rounded-[25px]
-}
-.btn-text{
-  @apply text-[14px] leading-[20px] font-[400] text-center
+.-[20px] font-[400] text-center
 }
 .nav-text{
   @apply text-[12px] leading-[16px] font-[400]
