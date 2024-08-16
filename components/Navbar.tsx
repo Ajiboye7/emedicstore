@@ -216,24 +216,7 @@ const Navbar = () => {
               className="inline-block w-[45px]"
             />
             <Image
-              src='/Cart Number.svg'
-              alt='cart number'
-              width={15}
-              height={15}
-              className="absolute left-8 top-0.5 transform -translate-y-1"
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Menu *
-      {menuOpen && (
-        <div className="md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          {NavLinks.map((link) => (
-            <Link href={link.url} key={link.id} className="block text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md nav-text">
-              {link.title}
-            </Link>
-          ))}
+              
           <SearchInput  />
 
           <CustomButton
