@@ -20,3 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <link rel="icon" href="/Logo.svg" />
+      </Head>
+      <body className={inter.className}>
+        <Navbar/>
+        {children}
+        <Footer/>
+        </body>
+    </html>
+  );
+}
