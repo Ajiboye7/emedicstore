@@ -151,7 +151,19 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md px-4 overflow-hidden ">
-      <div className=
+      <div className="container h-[80px] mx-auto flex items-center justify-between px-4 border border-solid border-blue-600">
+        <div className="flex items-center justify-between w-full md:w-auto">
+          <Image src="/Logo.svg" alt="logo" width={150} height={150}  className="w-[116px] h-[27px]"/>
+          <div className="flex items-center md:hidden">
+            <div className="relative mr-4">
+              <Image
+                src='/Cart.svg'
+                alt="cart"
+                width={40}
+                height={40}
+                className="inline-block "
+              />
+              <Image
                 src='/Cart Number.svg'
                 alt='cart number'
                 width={20}
