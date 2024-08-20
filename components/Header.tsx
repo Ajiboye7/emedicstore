@@ -72,6 +72,16 @@ const Header = () => {
           Your <span className="font-bold">Accessible & Budget-</span><br />
           <span className="font-bold">friendly HealthCare</span> Market.
         </TextTitle>
+        <p className="text-body max-w-[700px] md:max-w-[900px] xl:max-w-[1200px] text-bodyText sm:mb-10 leading-relaxed">
+          Experience healthcare that's effortlessly seamless, remarkably
+          accessible, surprisingly affordable, and always conveniently tailored
+          to you. No more long trips to the Pharmacy.
+        </p>
+        <div className="flex flex-row items-center gap-5 pt-6">
+          <CustomButton
+            title="Order Now"
+            buttonStyle="bg-primary-button px-5 py-4"
+            iconStyle=""
             Icon="/SVG2.svg"
             titleStyle="text-btnTextSecondary"
           />
