@@ -224,11 +224,7 @@ const Navbar = () => {
              titleStyle="text-btnTextSecondary"
           />
 
-          <div className="relative mt-4">
-            <Image
-              src='/Cart.svg'
-              alt="cart"
-              width={40}
+      
               height={40}
               className="inline-block"
             />
