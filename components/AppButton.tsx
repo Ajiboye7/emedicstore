@@ -7,10 +7,6 @@ const AppButton = ({ title, containerStyles, Icon, textStyles,imageStyle,line1St
   
     return (
       <div>
-        <button type="submit" className={`p-5 rounded-2xl flex items-center gap-2 bg-black whitespace-nowrap ${containerStyles}`}>
-          <div className={textStyles}>
-           {titleLines.map((line, index) => (
-              index === 0 ? (
                 <div key={index} className={line1Styles}>{line}</div>
               ) : (
                 <div key={index} className={line2Styles}>{line}</div>
