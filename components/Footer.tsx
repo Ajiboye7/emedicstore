@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-primaryGradientStart to-primaryGradientEnd w-full">
       <div className="content flex flex-col max-w-[1600px] mx-auto p-10 justify-end sm:mt-0">
-        <div className="top flex flex-row justify-between flex-wrap gap-5 mb-28">
+      <div className="top flex flex-row justify-between flex-wrap gap-[10px] xs:gap-5 mb-12 md:mb-28">
           <div className="left items-center">
             <div className="logo flex items-center gap-3">
               <Image
@@ -25,13 +25,13 @@ const Footer = () => {
             </div>
             
             <div className="socials flex gap-5">
-              <Image
+              {/*<Image
                 src="/LinkedIn.svg"
                 alt="linkedin"
                 width={40}
                 height={40}
                 className="w-[15px] h-[15px]"
-              />
+              />*/}
               <Image
                 src="/Facebook.svg"
                 alt="facebook"
@@ -67,7 +67,7 @@ const Footer = () => {
                 {column.links.map((link, linkIndex) => (
                   <li
                     key={link.title}
-                    className="footerLinks text-footerLinkFont py-2"
+                    className="footer-link text-footerLinkFont py-2"
                   >
                     {columnIndex === FooterLinks.length - 1 &&
                     linkIndex === column.links.length - 1 ? (

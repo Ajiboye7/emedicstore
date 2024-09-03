@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px', 
+      },
       colors: {
         primaryButtonBg: ' #0D63B2',
         secondaryButtonBg: '#FCFCFC',

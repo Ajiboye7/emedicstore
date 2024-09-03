@@ -15,24 +15,24 @@ const GetStarted = () => {
         <div className='flex lg:flex-row flex-col gap-10 justify-around items-center'>
             <Image src= '/Samsung Galaxy S20 5G.svg' alt='screen'  width={300} height={300}/>
             <div className='flex gap-5 flex-wrap justify-center items-center'>
-            <AppButton 
-            title="Get it on<br> Google Play"
-            Icon="/Icon (1).svg"
-            imageStyle="w-4 md:w-8 lg:w-10 xl:w-16 sm:ml-2"
-            containerStyles="flex-row-reverse bg-customBg"
-            line2Styles="font-bold md:text-3xl lg:text-4xl"
-            line1Styles="md:text-2xl lg:text-2xl md:mr-16 lg:mr-24"
+         <AppButton
+            title="Download on the<br> App store"
+              Icon="/Icon.svg"
+            imageStyle="get-started-img1"
+            containerStyles="flex-row-reverse item-center justify-center bg-customBg w-[150px] h-[50px] xs:w-[200px] sm:w-[250px] sm:h-[80px] rounded-[10px]  xs:!p-11"
+            line1Styles="text-[10px] xs:text-[16px] sm:text-[20px] "
+            line2Styles="font-bold text-[13px] xs:text-[25px]"
             textStyles='text-white'
-            />
-            <AppButton 
-             title="Download on the<br> App Store" 
-             Icon="/Icon.svg" 
-             imageStyle="w-5 md:w-8 lg:w-10 xl:w-16 sm:ml-2"
-             containerStyles="flex-row-reverse bg-customBg"
-             line2Styles="font-bold md:text-3xl lg:text-4xl"
-             line1Styles="text-1xl md:text-2xl"
-             textStyles='text-white'
-            />
+          />
+           <AppButton
+            title="GET IT ON<br> Google Play"
+            Icon="/Icon (1).svg"
+            imageStyle="get-started-img1"
+            containerStyles="flex-row-reverse item-center justify-center bg-customBg w-[150px] h-[50px] xs:w-[200px] sm:w-[250px] sm:h-[80px] rounded-[10px]  xs:!p-11"
+            line1Styles="xs:text-[16px] sm:text-[20px] text-[10px]"
+            line2Styles="font-bold text-[13px] xs:text-[20px] sm:text-[25px]"
+            textStyles='text-white'
+          />
             </div>
             <Image src= '/Space Black.svg' alt='screen'  width={300} height={300}/>
         </div>

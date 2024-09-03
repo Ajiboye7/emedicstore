@@ -133,121 +133,109 @@ export const HealthCategories =[
     },
  ]
 
- export const Testimonial =[
+ export const Testimonial = [
     {
-        id:1,
-        body: 'Always a pleasure ordering from eMedicStore. Your customer service is top notch. I think other online beauty stores should learn from you on how to handle their customers so well! So do not change a thing! Thank You.',
-        name: 'Adeleke Maryann',
-        location :'Lagos, Nigeria.',
-        img: 'Ellipse_31_oona4x 1.svg',
-        alt:'first person'
+      id: 1,
+      body: '"Always a pleasure ordering from eMedicStore. Your customer service is top notch. I think other online beauty stores should learn from you on how to handle their customers so well! So do not change a thing! Thank You."',
+      name: 'Adeleke Maryann',
+      location: 'Lagos, Nigeria.',
+      img: 'Ellipse_31_oona4x 1.svg',
+      alt: 'first person'
     },
-
+  
     {
-        id:2,
-        body: 'I cannot believe the amazing service you guys provide. The staffs are all so courteous and willing to go out of their way every time to give an excellent service. They truly go the extra mile and put the customers first.',
-        name: 'Rashid',
-        location :'London, United Kingdom.',
-        img: '/Ellipse_42_byjhfd 1.svg',
-        alt:'second person'
+      id: 2,
+      body: '"I cannot believe the amazing service you guys provide. The staffs are all so courteous and willing to go out of their way every time to give an excellent service. They truly go the extra mile and put the customers first."',
+      name: 'Rashid',
+      location: 'London, United Kingdom.',
+      img: '/Ellipse_42_byjhfd 1.svg',
+      alt: 'second person'
     },
-
+  
     {
-        id:3,
-        body: 'I am immensely grateful for the exceptional customer service provided by eMedicStore. The speed of delivery surpassed my expectations, and the attentive support made the entire experience seamless.',
-        name: 'Preye',
-        location :'Rivers State, Nigeria.',
-        img: '/Ellipse_34_sj528k 1.svg',
-        alt:'third person'
+      id: 3,
+      body: '"I am immensely grateful for the exceptional customer service provided by eMedicStore. The speed of delivery surpassed my expectations, and the attentive support made the entire experience seamless."',
+      name: 'Preye',
+      location: 'Rivers State, Nigeria.',
+      img: '/Ellipse_34_sj528k 1.svg',
+      alt: 'third person'
     },
- ]
+  ];
+  
 
-
- export const QuestionAnswer=[
+ export const QuestionAnswer = [
     {
-        id:1,
-        question: 'Are you Doctors?',
-        answer: 'No. We are not Doctors, we are Pharmacists and strongly recommend consulting a Medical Doctor regarding any health concern. We strictly provide pharmaceutical services.',
+      id: 1,
+      question: 'Are you Doctors?',
+      answer: "No. We are not Doctors, we are Pharmacists and strongly recommend consulting a Medical Doctor regarding any health concern. We strictly provide pharmaceutical services.",
     },
-
     {
-        id:2,
-        question: ' Can I call and talk to a Pharmacist instead of text chat?',
-        answer: 'Yes. We have provisions for audio and video chat with our Pharmacists. However, while the 30-minutes text chat is free, audio and video consultation is a paid service.',
+      id: 2,
+      question: 'Can I call and talk to a Pharmacist instead of text chat?',
+      answer: "Yes. We have provisions for audio and video chat with our Pharmacists. However, while the 30-minutes text chat is free, audio and video consultation is a paid service.",
     },
-
     {
-        id:3,
-        question: ' Do you deliver prescription drugs?',
-        answer: 'Yes, we do. However, we need to see a prescription obtained from a Doctor before we can deliver prescription drugs.',
+      id: 3,
+      question: 'Do you deliver prescription drugs?',
+      answer: "Yes, we do. However, we need to see a prescription obtained from a Doctor before we can deliver prescription drugs.",
     },
-
     {
-        id:4,
-        question: ' How authentic are the medications you deliver?',
-        answer: 'We are dedicated to delivering only quality and authentic medications. To achieve this, we have partnered with only pharmacies that are fully licensed and regulated by the Pharmacists’ Council of Nigeria. (PCN), as well as agencies regulating products.',
+      id: 4,
+      question: 'How authentic are the medications you deliver?',
+      answer: "We are dedicated to delivering only quality and authentic medications. To achieve this, we have partnered with only pharmacies that are fully licensed and regulated by the Pharmacists’ Council of Nigeria (PCN), as well as agencies regulating products.",
     },
-
     {
-        id:5,
-        question: 'When can I place orders?',
-        answer: 'Orders can be placed at any time of the day using any of our platforms.',
+      id: 5,
+      question: 'When can I place orders?',
+      answer: "Orders can be placed at any time of the day using any of our platforms.",
     },
-
     {
-        id:6,
-        question: ' Can I order for a family member?',
-        answer: 'Yes. However, indicate who the drug is for as this information is important for your database and can help us provide professional recommendations.',
+      id: 6,
+      question: 'Can I order for a family member?',
+      answer: "Yes. However, indicate who the drug is for as this information is important for your database and can help us provide professional recommendations.",
     },
-
     {
-        id:7,
-        question: 'How do i place my order?',
-        answer: 'Orders can be placed using our WhatsApp platform or our Website/App. However, we strongly recommend using our Website and Mobile App due to its multi-functionality such as Geriatric care, Auto-Refill, Refill reminder, Drug usage reminder, Order Tracking, Seamless payment, etc.',
+      id: 7,
+      question: 'How do I place my order?',
+      answer: "Orders can be placed using our WhatsApp platform or our Website/App. However, we strongly recommend using our Website and Mobile App due to its multi-functionality such as Geriatric care, Auto-Refill, Refill reminder, Drug usage reminder, Order Tracking, Seamless payment, etc.",
     },
-
     {
-        id:8,
-        question: ' Is it safe to order online form your website?',
-        answer: 'We are confident to say definitely Yes. We are dedicated to delivering only quality and authentic medications, which is why we have workforce of qualified and fully licensed Pharmacists who work for eMedicStore and also, we partner with fully licensed pharmacy stores to ensure you get the best value for your money.',
+      id: 8,
+      question: 'Is it safe to order online from your website?',
+      answer: "We are confident to say definitely Yes. We are dedicated to delivering only quality and authentic medications, which is why we have a workforce of qualified and fully licensed Pharmacists who work for eMedicStore. We also partner with fully licensed pharmacy stores to ensure you get the best value for your money.",
     },
-
     {
-        id:9,
-        question: ' Can I cancel/edit my order?',
-        answer: 'Yes, you can cancel or edit your order. However, once an order has been paid for, it will be locked and you will be UNABLE to edit or cancel your order.',
+      id: 9,
+      question: 'Can I cancel/edit my order?',
+      answer: "Yes, you can cancel or edit your order. However, once an order has been paid for, it will be locked and you will be UNABLE to edit or cancel your order.",
     },
-
     {
-        id:10,
-        question: ' What areas do yo serve?',
-        answer: 'We currently deliver within Lagos State, however, we have special provisions for delivery outside Lagos while we are working to expand our service area.',
+      id: 10,
+      question: 'What areas do you serve?',
+      answer: "We currently deliver within Lagos State, however, we have special provisions for delivery outside Lagos while we are working to expand our service area.",
     },
-
     {
-        id:11,
-        question: ' Generic brands',
-        answer: 'Depending on the nature of your specific request, our Pharmacists can provide a generic brand of your medications ONLY if your prescription or request was not Brand specific and you would be informed prior to the order being processed.',
+      id: 11,
+      question: 'Generic brands',
+      answer: "Depending on the nature of your specific request, our Pharmacists can provide a generic brand of your medications ONLY if your prescription or request was not Brand specific and you would be informed prior to the order being processed.",
     },
-
     {
-        id:12,
-        question: ' Can I get fixed prices on Medications here',
-        answer: 'No. The prices of medications generally vary depending on several factors such as brand, geographical location, batch number, regulations and suppliers. However, by virtue of our partnerships with certified drugstores and licensed manufacturers, we assure you of the best possible price.',
+      id: 12,
+      question: 'Can I get fixed prices on Medications here?',
+      answer: "No. The prices of medications generally vary depending on several factors such as brand, geographical location, batch number, regulations, and suppliers. However, by virtue of our partnerships with certified drugstores and licensed manufacturers, we assure you of the best possible price.",
     },
-
     {
-        id:13,
-        question: 'How do i make payment',
-        answer: 'Payment can be made on eMedicStore using a variety of payment options via PayStack such as Bank Transfer, USSD or your ATM Card.',
+      id: 13,
+      question: 'How do I make payment?',
+      answer: "Payment can be made on eMedicStore using a variety of payment options via PayStack such as Bank Transfer, USSD, or your ATM Card.",
     },
-
     {
-        id:4,
-        question: 'Is my information Secure?',
-        answer: 'Yes. Your information is secured. Patient and medication data especially prescription data and history is securely stored for pharmaceutical regulation purposes and third party access to this information is under strict control see privacy policy',
+      id: 14,
+      question: 'Is my information secure?',
+      answer: "Yes. Your information is secured. Patient and medication data, especially prescription data and history, is securely stored for pharmaceutical regulation purposes, and third-party access to this information is under strict control. See privacy policy.",
     },
- ]
+  ];
+  
 
  export const Blog =[
     {
