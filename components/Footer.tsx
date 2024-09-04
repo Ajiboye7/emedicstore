@@ -43,7 +43,7 @@ const Footer = () => {
                 <Image
                   src="/Instagram.svg"
                   alt="instagram"
-                  width={32} // Reduced the size to accommodate padding
+                  width={32} 
                   height={32} 
                   className="w-[15px] h-[15px]"
                 />
