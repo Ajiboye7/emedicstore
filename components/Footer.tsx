@@ -44,7 +44,7 @@ const Footer = () => {
                   src="/Instagram.svg"
                   alt="instagram"
                   width={32} // Reduced the size to accommodate padding
-                  height={32} // Reduced the size to accommodate padding
+                  height={32} 
                   className="w-[15px] h-[15px]"
                 />
               </div>
