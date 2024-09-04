@@ -133,7 +133,53 @@ const Navbar = () => {
 
 export default Navbar;
 
+/*import React, { useState } from "react";
+import Image from "next/image";
+import { NavLinks } from "@/constants";
+import Link from "next/link";
+import SearchInput from "./SearchInput";
+import CustomButton from "./CustomButton";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  return (
+    <nav className="bg-white shadow-md px-4 overflow-hidden ">
+      <div className="container h-[80px] mx-auto flex items-center justify-between px-4 border border-solid border-blue-600">
+        <div className="flex items-center justify-between w-full md:w-auto">
+          <Image src="/Logo.svg" alt="logo" width={150} height={150}  className="w-[116px] h-[27px]"/>
+          <div className="flex items-center md:hidden">
+            <div className="relative mr-4">
+              <Image
+                src='/Cart.svg'
+                alt="cart"
+                width={40}
+                height={40}
+                className="inline-block "
+              />
+              <Image
+                src='/Cart Number.svg'
+                alt='cart number'
+                width={20}
+                height={20}
+                className="absolute left-6 top-0.5 transform -translate-y-1"
+              />
+            </div>
+            <button
+              type="button"
+              className="text-gray-700 hover:text-blue-500 focus:outline-none focus:text-blue-500"
+              onClick={toggleMenu}
+            >
+              <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} className="w-6 h-6" />
+            </button>
+          </div>
+        </div>
 
         <div className="hidden md:flex items-center space-x-4 pl-10 border-l-2 border-gray-200">
           {NavLinks.map((link) => (
