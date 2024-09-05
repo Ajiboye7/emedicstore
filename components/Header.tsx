@@ -80,14 +80,14 @@ const Header = () => {
         <div className="flex flex-row items-center gap-5 pt-6">
           <CustomButton
             title="Order Now"
-            buttonStyle="bg-primary-button px-5 py-4"
+            buttonStyle="bg-primary-button p-[10px] xs:px-5 xs:py-4"
             iconStyle=""
             Icon="/SVG2.svg"
             titleStyle="text-btnTextSecondary"
           />
           <CustomButton
             title="Become a vendor"
-            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 px-5 py-4"
+            buttonStyle="bg-secondary-button border-2 border-solid border-blue-500 p-[10px] xs:px-5 xs:py-4"
             iconStyle=""
             Icon="/SVG.svg"
             titleStyle="text-btnTextPrimary"
