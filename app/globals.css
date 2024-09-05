@@ -54,19 +54,19 @@
   @apply text-[11px] leading-[12.65px] font-[400]
 }
 .text-title{
-  @apply text-[25px] leading-[40px] sm:text-[40px] sm:leading-[65px] md:text-[50px] md:leading-[70px] lg:text-[60px] lg:leading-[73px] xl:text-[65px] xl:leading-[86px] font-[400] 
+  @apply text-[25px] leading-[40px] xs:text-[40px] sm:leading-[65px] md:text-[50px] md:leading-[70px] lg:text-[60px] lg:leading-[73px] xl:text-[65px] xl:leading-[86px] font-[400] 
 }
 .sub-title{
   @apply text-[12px] leading-[19.5px] font-[400] text-bodyText
 }
 .text-body{
-  @apply text-[18px] leading-[32px] font-[400] text-bodyText
+  @apply text-[15px] xs:text-[18px] leading-[28px] xs:leading-[32px] font-[400] text-bodyText
 }
 .perk-title{
   @apply text-[16px] leading-[19.5px] font-[500]
 }
 .perk-body{
-  @apply text-[14px] leading-[22px] font-[400]
+  @apply text-[14px] xs:leading-[22px] leading-[25px] font-[400]
 }
 .cat-title{
   @apply text-[35px] text-2xl xl:text-4xl leading-[32px] font-[500]
@@ -75,7 +75,7 @@
   @apply text-[14px] leading-[22px] font-[400]
 }
 .testimonial-body{
-@apply text-[18px] leading-[32px] font-[400]
+@apply text-[16px] xs:text-[18px] leading-[30px] xs:leading-[32px] font-[400]
 }
 .testimonial-name{
   @apply text-[16px] leading-[23px] font-[700]
@@ -93,7 +93,7 @@
   @apply text-[14px] leading-[19.5px] font-[400]
 }
 .blog-text-body{
-  @apply text-[18px] leading-[32px] font-[700]
+  @apply text-[16px] xs:text-[18px] leading-[30px] xs:leading-[32px] font-[700]
 }
 .blog-text-bottom{
   @apply text-[14px] leading-[32px] font-[400]
