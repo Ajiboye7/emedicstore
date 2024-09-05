@@ -54,10 +54,13 @@
   @apply text-[11px] leading-[12.65px] font-[400]
 }
 .text-title{
-  @apply text-[25px] leading-[40px] xs:text-[40px] sm:leading-[65px] md:text-[50px] md:leading-[70px] lg:text-[60px] lg:leading-[73px] xl:text-[65px] xl:leading-[86px] font-[400] 
+  @apply text-[24px] leading-[38px] xs:text-[30px] xs:leading-[45px] sm:text-[40px] sm:leading-[55px] md:text-[50px] md:leading-[65px] lg:text-[60px] lg:leading-[73px] xl:text-[65px] xl:leading-[86px] font-[400] 
 }
 .sub-title{
   @apply text-[12px] leading-[19.5px] font-[400] text-bodyText
+}
+.header-text-body{
+  @apply xs:text-[17px] text-[15px] sm:text-[18px] leading-[28px] xs:leading-[32px] font-[400] text-bodyText
 }
 .text-body{
   @apply text-[15px] xs:text-[18px] leading-[28px] xs:leading-[32px] font-[400] text-bodyText

@@ -68,11 +68,11 @@ const Header = () => {
           </p>
         </div>
         {/*text-3xl sm:text-4xl md:text-5xl xl:text-7xl 2xl:text-8xl*/}
-        <TextTitle textStyle=" mb-4 sm:my-8 md:my-14 max-w-[1400px]">
+        <TextTitle textStyle=" mb-4 sm:my-8 md:my-[2rem] max-w-[1400px] !sm:text-[40px] !xs:leading-[35px]">
           Your <span className="font-bold">Accessible & Budget-</span><br />
           <span className="font-bold">friendly HealthCare</span> Market.
         </TextTitle>
-        <p className="text-body max-w-[700px] md:max-w-[900px] xl:max-w-[1200px] text-bodyText sm:mb-10 leading-relaxed">
+        <p className="header-text-body max-w-[435px] xs:max-w-[400px] sm:max-w-[500px] md:max-w-[650px] xl:max-w-[800px] text-bodyText sm:mb-10">
           Experience healthcare that's effortlessly seamless, remarkably
           accessible, surprisingly affordable, and always conveniently tailored
           to you. No more long trips to the Pharmacy.
