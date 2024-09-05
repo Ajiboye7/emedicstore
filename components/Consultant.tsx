@@ -15,9 +15,9 @@ const Consultant = () => {
         <div className='w-full lg:w-1/2 xl:w-2/3'>
         {/*text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-conTitle */}
           <TextTitle textStyle='mb-4 sm:mb-8 md:mb-12  md:text-left'>
-            Specialist <span className='font-bold'>Consultation</span> <br/> at Your Fingertips.
+            Specialist <span className='font-bold'>Consultation</span> at Your Fingertips.
           </TextTitle>
-          <p className='text-bodyText text-body mb-8 leading-relaxed md:text-left max-w-[900px]'>
+          <p className='text-bodyText text-body mb-8 leading-relaxed md:text-left max-w-[700px]'>
             Unlock personalized care with our online chat consultation. Connect with certified specialists, share images and videos for swift, expert solutions.
           </p>
           {Consult.map((con) => (
@@ -29,7 +29,7 @@ const Consultant = () => {
           <div className='mt-8 md:mt-12'>
             <CustomButton
               title="Talk to a specialist"
-              buttonStyle="bg-primary-button px-5 py-4"
+              buttonStyle="bg-primary-button p-[10px] xs:px-5 xs:py-4"
               iconStyle=""
               Icon="/SVG2.svg"
               titleStyle="text-btnTextSecondary"

@@ -15,7 +15,7 @@ const Vendor = () => {
         <div>
         <CustomButton
             title="Become a vendor"
-            buttonStyle="border-2 border-solid border-blue-500 px-5 py-4"
+            buttonStyle="border-2 border-solid border-blue-500 p-[10px] xs:px-5 xs:py-4"
             iconStyle=""
             Icon="/SVG.svg"
             titleStyle="text-btnTextPrimary"
