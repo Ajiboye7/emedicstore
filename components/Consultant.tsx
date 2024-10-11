@@ -27,13 +27,7 @@ const Consultant = () => {
             </div>
           ))}
           <div className='mt-8 md:mt-12'>
-            <CustomButton
-              title="Talk to a specialist"
-              buttonStyle="bg-primary-button p-[10px] xs:px-5 xs:py-4"
-              iconStyle=""
-              Icon="/SVG2.svg"
-              titleStyle="text-btnTextSecondary"
-            />
+            <
           </div>
         </div>
       </div>
