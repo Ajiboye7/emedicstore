@@ -13,7 +13,6 @@ const Consultant = () => {
           <Image src='/Consultant PS ED 1.svg' alt='consultantImage' width={600} height={600} />
         </div>
         <div className='w-full lg:w-1/2 xl:w-2/3'>
-        {/*text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-conTitle */}
           <TextTitle textStyle='mb-4 sm:mb-8 md:mb-12  md:text-left'>
             Specialist <span className='font-bold'>Consultation</span> at Your Fingertips.
           </TextTitle>
