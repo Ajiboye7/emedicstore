@@ -23,7 +23,13 @@ export{
     GradientText,
     Partners,
     Perks,
-    Cat  
+    Categories,
+    Consultant,
+    Vendor,
+    Testimonials,
+    QandA,
+    QA,
+    Explore,
     GetStarted,
     Footer
 }
